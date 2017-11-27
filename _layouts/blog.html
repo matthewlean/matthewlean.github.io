@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="page-wrapper">
+{% include header-main.html %}
+
+<div class="site-container m-top-minus-150">
+  <div class="primary">
+  	<div class="main-title">
+  		<h3>Projects</h3>
+  		<p>Website Design</p>
+  	</div>
+  	<div class="bd-websites">
+  		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %} {% assign count = count | plus:1 %}
+  		<article class="bd-website ">
+  			<a href="{{ post.url }}">
+  	                    <img class="b-lazy" src="{{site.baseurl}}/assets/site-post/{{post.img}}" height="420">
+  	                  <span class="bd-website-overlay is-overlay"></span>
+  	              </a>
+  			<h3 class="bd-website-date">{{ post.title | escape }}</h3>
+  			<p class="has-text-grey-light bd-website-date">{{ post.date | date_to_long_string }}</p>
+  		</article>
+  		{% if count == 12 %}{% break %} {% endif %} {% endif %} {% endfor %}
+  	</div>
+  </div>
+</div>
+
+      <!--build:js js/main.min.js -->
+      <script src="js/lib/a-library.js"></script>
+      <script src="js/lib/another-library.js"></script>
+      <script src="js/main.js"></script>
+      <!-- endbuild -->
+
+</div>
+{% include footer.html %}
+
+</body>
+
+</html>

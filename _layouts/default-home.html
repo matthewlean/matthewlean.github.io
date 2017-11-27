@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<div class="page-wrapper">
+{% include header-main.html %}
+
+<div class="site-container m-top-minus-150">
+
+<div class="primary">
+	<div class="content-wrap">
+			<div class="image">
+				<img src="assets/site-brand/matthew-lean.jpg">
+			</div>
+			<div class="title">
+				<div class="title-alt">
+					<h3>Matthew Lean</h3>
+					<p>Uni Grad</p>
+				</div>
+			</div>
+			<div class="description">
+				<p>Digital Content Creator and graduate from Bournemouth University.
+					Feel free to check out <a class="bio" href="http://matthewlean.co.uk/portfolio.pdf">my portfolio</a> for all my recent projects and graphics work.
+					Extra info and writeup can be found on <a class="bio" href="http://matthewlean.co.uk/blog/">my blog</a>
+					 and please <a class="bio" href="mailto:mttlean@gmail.com">contact</a> me if you have any questions. </p>
+			</div>
+			<div class="links">
+				<a title="Email" class="btn btn-default" href="mailto:mttlean@gmail.com">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</a>
+				<a title="Lindedin" class="btn btn-default" href="https://www.linkedin.com/in/m-lean/">
+					<i class="fa fa-linkedin" aria-hidden="true"></i>
+				</a>
+				<a title="GitHub" class="btn btn-default" href="https://github.com/matthewlean">
+					<i class="fa fa-github" aria-hidden="true"></i>
+				</a>
+				<a title="Instagram" class="btn btn-default" href="https://www.instagram.com/matthewlean/">
+					<i class="fa fa-instagram" aria-hidden="true"></i>
+				</a>
+				<a title="Twitter" class="btn btn-default" href="https://twitter.com/matthewLean_">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</a>
+				<a title="Codepen" class="btn btn-default" href="http://codepen.io/matthewlean/">
+					<i class="fa fa-codepen" aria-hidden="true"></i>
+				</a>
+			</div>
+	</div>
+</div>
+
+<div class="primary">
+	<div class="main-title">
+		<h3>Projects</h3>
+		<p>Website Design</p>
+	</div>
+	<!-- Main Project -->
+<div id="main-project">
+	{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
+	<a href="{{ post.url }}">
+	<div class="collection-tag-tiles__hero-image" style="background: linear-gradient(270deg, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});">
+		<div class="collection-tag-tiles__name">{{ post.title | escape }}</div>
+	</div>
+	<div class="collection-tag-tiles__description">
+		<h3 class="category">{{ post.title | escape }}</h3>
+		<p class="date">{{ post.date | date_to_long_string }}</p>
+		<p class="description">{{ post.description | escape }}</p>
+	</div>
+	</a>
+	{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
+</div>
+	<!-- Secondary Projects -->
+<div id="secondary-projects">
+	<div class="bd-websites">
+		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "featured" %} {% assign count = count | plus:1 %}
+		<div class="bd-website">
+			<a href="{{ post.url }}">
+			<div class="collection-tag-tiles__hero-image" style="background: linear-gradient(270deg, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});">
+				<div class="collection-tag-tiles__name">{{ post.title | escape }}</div>
+			</div>
+			<div class="collection-tag-tiles__description">
+				<h3 class="category">{{ post.title | escape }}</h3>
+				<p class="date">{{ post.date | date_to_long_string }}</p>
+				<p class="description">{{ post.description | escape }}</p>
+			</div>
+		</a>
+		</div>
+		{% if count == 3 %}{% break %} {% endif %} {% endif %} {% endfor %}
+	</div>
+</div>
+</div>
+<!-- <div class="collection-tag-tiles__description" data-reactid=".nriest68zk.2.2.0.1.$287.1"><span data-reactid=".nriest68zk.2.2.0.1.$287.1.0">No need to throw your diet into disarray. These nutritious and delicious dishes will put a major spring in your step.</span><span class="collection-tag-tiles__link">View Healthy Food →</span></div> -->
+
+
+</div>
+
+      <!--build:js js/main.min.js -->
+      <script src="js/lib/a-library.js"></script>
+      <script src="js/lib/another-library.js"></script>
+      <script src="js/main.js"></script>
+      <!-- endbuild -->
+
+</div>
+{% include footer.html %}
+
+</body>
+
+</html>

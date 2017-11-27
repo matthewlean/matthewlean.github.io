@@ -1,0 +1,27 @@
+// Copyright 2017 Matthew Lean
+
+// Footer // ----------------------------------
+
+footer{
+  height: 50px;
+  background-color: $dark-grey;
+  width: 100%;
+  margin: 20px 0 0px 0;
+}
+footer .section {
+  margin: 0 auto;
+  padding: 12px;
+  float: left;
+}
+footer .section p{
+  color: #f2f2f2;
+}
+footer .section-alt {
+  margin: 0 auto;
+  padding: 12px;
+  float: right;
+}
+footer .section-alt .fa{
+  color: #f2f2f2;
+  margin-left: 5px;
+}

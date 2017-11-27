@@ -1,0 +1,326 @@
+// Copyright 2017 Matthew Lean
+
+// Colours // ----------------------------------
+$blue: rgb(15,106,234);
+$red: rgb(255,58,47);
+$yellow: rgb(254,203,22);
+$green: rgb(41,203,113);
+$light-grey: rgb(242,242,242); // background grey
+$dark-grey : rgb(46,51,51); // default font colour
+
+// Main styling // ----------------------------------
+*{margin:0;padding:0;box-sizing: border-box;}
+
+html, body{
+  background-color: #eceef1 !important;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+.fa{
+      font-size: medium;
+}
+p {
+    color: #737f8d;
+    font-family: Open Sans;
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin: 0 auto
+}
+h1 {
+    font-family: Open Sans;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #333333;
+    margin: 0 auto;
+}
+h2 {
+    font-family: Open Sans;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 auto;
+    color: #333333;
+}
+h3 {
+  font-family: Open Sans;
+  font-size: 1.2rem;
+  line-height: 1.15;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 auto;
+}
+h4 {
+  font-family: Open Sans;
+  font-size: 1rem;
+  line-height: 1.15;
+  font-weight: 600;
+  color: #036aed;
+  margin: 0 auto;
+}
+a{
+ color:$blue;
+}
+p a:link, p a:visited{
+ border-bottom: 2px solid #0f6aea;
+ transition: 0.3s ease;
+}
+p a:link:hover,p a:visited:hover{
+ border-bottom: 2px solid #000;
+ color: #000;
+ transition: 0.3s ease;
+}
+
+// Helpers // ----------------------------------
+.m-top-minus-150{margin-top: -150px!important;}
+.page-wrapper{min-height: calc(100vh - 50px);}
+
+// Bulma // ----------------------------------
+// projects
+#main-project{margin-bottom: 1em;}
+
+.collection-tag-tiles__hero-image {
+    height: 200px;
+    margin-bottom: 1em;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.collection-tag-tiles__hero-image:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 25px 0px rgba(46, 51, 51, 0.24);
+}
+.collection-tag-tiles__name {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    line-height: 1.15;
+    font-family: "Open Sans",sans-serif;
+}
+.collection-tag-tiles__description {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #2e3333;
+}
+.bd-websites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.bd-website {
+  width: calc(33% - 0.5em);
+  display: block;
+  position: relative;
+  margin-bottom: 1em;
+}
+.bd-website-large {
+  width: 100%;
+  max-height: 220px;
+  display: block;
+  position: relative;
+  margin-bottom: 1em;
+  background-color: $green;
+  border-radius: 3px;
+}
+.post{
+    width: 100%;
+    height: 100%;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post p {
+    font-family: Open Sans, sans-serif;
+    color: $dark-grey;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: .01em;
+    padding: 10px 0;
+}
+.post h1{
+  font-family: Open Sans, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px !important;
+    line-height: 1.04;
+    letter-spacing: -.028em;
+    margin: 0;
+}
+.post .meta{
+  font-size: 1em;
+  padding: 0;
+}
+
+// Wordpress styling // ----------------------------------
+.site-container {
+    width: 1120px;
+    margin: 0 auto;
+    box-sizing: border-box
+}
+.primary {
+    display: block;
+    margin: 20px 0 0 0;
+}
+.main-title{
+  margin: 0 0 10px 0;
+}
+.title-fill{
+  padding: 20px 20px 20px 30px;
+  background-color: #fff;
+  border-radius: 3px 3px 0 0;
+  border-bottom: 1px solid #eceef1;
+}
+.banner svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4vw!important;
+}
+
+.primary .heroheader {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 0 0
+}
+
+.primary .content-wrap .title {
+    margin: 0 0 10px 0
+}
+
+.primary .content-wrap .image {
+    float: left;
+    margin:0 20px 20px 0;
+}
+
+.primary .content-wrap .image img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    float: left;
+    margin: 0 10px 0 0;
+    transition: ease 0.4s;
+}
+
+.primary .content-wrap .links {
+    margin: 15px 0 0 0
+}
+
+.primary .content-wrap i {
+    color: #036aed;
+    margin: 0 10px 0 0
+}
+
+.primary .content-wrap i:hover {
+    color: #737f8d;
+    margin: 0 10px 0 0;
+    transition: all .2s ease
+}
+
+.primary .content-wrap {
+    background-color: #fff;
+    width: 100%;
+    margin: 0 20px 0 0;
+    border-radius: 3px;
+}
+
+.content-wrap {
+    position: relative;
+    box-sizing: border-box;
+    padding: 23px 30px
+}
+
+.primary .content-wrap-alt {
+    position: relative;
+    box-sizing: border-box;
+    padding: 23px 30px
+}
+
+.primary .content-wrap-alt .content .description {
+    margin: 5px 0 0 0;
+    max-height: 120px;
+}
+
+.primary .content-wrap-alt .content .wrap {
+    margin: 0 auto;
+    padding: 4px
+}
+
+.primary .content-wrap-alt .content .wrap:hover {
+    background-color: #f9f9f9
+}
+
+.primary .content-wrap-alt .content .wrap img {
+    float: left;
+    width: 20px;
+    margin: 0 5px 0 0
+}
+
+.primary .content-wrap-alt {
+    display: block;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+    float: left;
+    overflow: hidden;
+    height: inherit;
+    width: 330px
+}
+
+/*Medium Screen */
+@media (max-width: 1270px) {
+
+.site-container {
+  max-width: 90%;
+}
+.home .site-container {
+  width: 90%;
+}
+.primary {
+  height: inherit;
+  overflow: hidden;
+}
+.primary .content-wrap{
+  margin: 0 auto;
+}
+.primary .content-wrap .content{
+  width: auto;
+}
+.primary .content-wrap-alt{
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+}
+
+/*Small Screen */
+@media (max-width: 850px) {
+.primary .content-wrap .title .image img {
+    width: 100px;
+    height: 100px;
+    transition: ease 0.4s;
+}
+.primary .content-wrap .image {
+    width: 100%;
+    display:flex;justify-content:center;align-items:center;
+}
+}
