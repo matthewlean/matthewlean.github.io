@@ -255,7 +255,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 html, body {
   background-color: #eceef1 !important;
@@ -315,17 +316,22 @@ a {
 
 p a:link, p a:visited {
   border-bottom: 2px solid #0f6aea;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease; }
 
 p a:link:hover, p a:visited:hover {
   border-bottom: 2px solid #000;
   color: #000;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
   transition: 0.3s ease; }
 
 .m-top-minus-150 {
   margin-top: -150px !important; }
 
 .page-wrapper {
+  min-height: -webkit-calc(100vh - 50px);
   min-height: calc(100vh - 50px); }
 
 #main-project {
@@ -334,11 +340,16 @@ p a:link:hover, p a:visited:hover {
 .collection-tag-tiles__hero-image {
   height: 200px;
   margin-bottom: 1em;
-  transition: box-shadow 0.2s ease-in-out; }
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out; }
 
 .collection-tag-tiles__hero-image:hover {
   cursor: pointer;
-  box-shadow: 0px 10px 25px 0px rgba(46, 51, 51, 0.24); }
+  -webkit-box-shadow: 0px 5px 20px 5px rgba(46, 51, 51, 0.2);
+          box-shadow: 0px 5px 20px 5px rgba(46, 51, 51, 0.2); }
 
 .collection-tag-tiles__name {
   font-size: 1.5em;
@@ -348,6 +359,7 @@ p a:link:hover, p a:visited:hover {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   padding: 0 10px;
   line-height: 1.15;
@@ -363,14 +375,20 @@ p a:link:hover, p a:visited:hover {
   color: #2e3333; }
 
 .bd-websites {
+  display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -webkit-justify-content: space-between;
+          justify-content: space-between; }
 
 .bd-website {
+  width: -webkit-calc(33% - 0.5em);
   width: calc(33% - 0.5em);
   display: block;
   position: relative;
@@ -383,7 +401,8 @@ p a:link:hover, p a:visited:hover {
   position: relative;
   margin-bottom: 1em;
   background-color: #29cb71;
-  border-radius: 3px; }
+  -webkit-border-radius: 3px;
+          border-radius: 3px; }
 
 .post {
   width: 100%;
@@ -419,7 +438,8 @@ p a:link:hover, p a:visited:hover {
 .site-container {
   width: 1120px;
   margin: 0 auto;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .primary {
   display: block;
@@ -431,7 +451,8 @@ p a:link:hover, p a:visited:hover {
 .title-fill {
   padding: 20px 20px 20px 30px;
   background-color: #fff;
-  border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+          border-radius: 3px 3px 0 0;
   border-bottom: 1px solid #eceef1; }
 
 .banner svg {
@@ -455,9 +476,12 @@ p a:link:hover, p a:visited:hover {
 .primary .content-wrap .image img {
   width: 160px;
   height: 160px;
-  border-radius: 100px;
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
   float: left;
   margin: 0 10px 0 0;
+  -webkit-transition: ease 0.4s;
+  -o-transition: ease 0.4s;
   transition: ease 0.4s; }
 
 .primary .content-wrap .links {
@@ -470,22 +494,27 @@ p a:link:hover, p a:visited:hover {
 .primary .content-wrap i:hover {
   color: #737f8d;
   margin: 0 10px 0 0;
+  -webkit-transition: all .2s ease;
+  -o-transition: all .2s ease;
   transition: all .2s ease; }
 
 .primary .content-wrap {
   background-color: #fff;
   width: 100%;
   margin: 0 20px 0 0;
-  border-radius: 3px; }
+  -webkit-border-radius: 3px;
+          border-radius: 3px; }
 
 .content-wrap {
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 23px 30px; }
 
 .primary .content-wrap-alt {
   position: relative;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 23px 30px; }
 
 .primary .content-wrap-alt .content .description {
@@ -508,7 +537,8 @@ p a:link:hover, p a:visited:hover {
   display: block;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   float: left;
   overflow: hidden;
   height: inherit;
@@ -536,15 +566,23 @@ p a:link:hover, p a:visited:hover {
   .primary .content-wrap .title .image img {
     width: 100px;
     height: 100px;
+    -webkit-transition: ease 0.4s;
+    -o-transition: ease 0.4s;
     transition: ease 0.4s; }
   .primary .content-wrap .image {
     width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center; } }
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 
 .navbar {
   height: 70px;
@@ -557,6 +595,8 @@ p a:link:hover, p a:visited:hover {
   padding: 0;
   overflow: hidden;
   height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   float: left; }
@@ -587,6 +627,9 @@ p a:link:hover, p a:visited:hover {
 .banner {
   position: relative;
   height: 200px;
+  background: -webkit-gradient(linear, right top, left top, from(#00d0ff), to(#036aed));
+  background: -webkit-linear-gradient(right, #00d0ff, #036aed);
+  background: -o-linear-gradient(right, #00d0ff, #036aed);
   background: linear-gradient(270deg, #00d0ff, #036aed);
   height: 200px; }
 
@@ -602,16 +645,30 @@ footer {
   margin: 20px 0 0px 0; }
 
 footer .section {
-  margin: 0 auto;
-  padding: 12px;
-  float: left; }
+  float: left;
+  padding: 0; }
 
 footer .section p {
-  color: #f2f2f2; }
+  color: #f2f2f2;
+  line-height: 50px; }
 
 footer .section-alt {
-  margin: 0 auto;
-  padding: 12px;
+  line-height: 50px;
+  float: right; }
+
+footer .section-alt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   float: right; }
 
 footer .section-alt .fa {
