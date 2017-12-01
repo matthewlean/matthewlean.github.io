@@ -48,25 +48,44 @@
 </div>
 
 <div class="primary">
-	<div class="main-title">
+	<!-- <div class="main-title">
 		<h3>Projects</h3>
 		<p>Website Design</p>
-	</div>
+	</div> -->
 	<!-- Main Project -->
-<div id="main-project">
-	{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
-	<a href="{{ post.url }}">
-	<div class="collection-tag-tiles__hero-image" style="background: linear-gradient(270deg, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});">
-		<div class="collection-tag-tiles__name">{{ post.title | escape }}</div>
+	<div id="main-project">
+		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
+		<a href="{{ post.url }}">
+		<div class="collection-tag-tiles__hero-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
+			<div class="collection-tag-tiles__name">
+				<div class="badge">
+					<span>Recent Project</span>
+				</div>
+				{{ post.title | escape }}</div>
+		</div>
+		<div class="collection-tag-tiles__description">
+			<h3 class="category">{{ post.title | escape }}</h3>
+			<p class="date">{{ post.date | date_to_long_string }}</p>
+			<p class="description">{{ post.description | escape }}</p>
+		</div>
+		</a>
+		{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
 	</div>
-	<div class="collection-tag-tiles__description">
-		<h3 class="category">{{ post.title | escape }}</h3>
-		<p class="date">{{ post.date | date_to_long_string }}</p>
-		<p class="description">{{ post.description | escape }}</p>
-	</div>
-	</a>
-	{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
-</div>
+
+	<!-- <div id="main-project">
+		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
+		<a href="{{ post.url }}">
+		<div class="collection-tag-tiles__hero-image" style="background: linear-gradient(270deg, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});">
+			<div class="collection-tag-tiles__name">{{ post.title | escape }}</div>
+		</div>
+		<div class="collection-tag-tiles__description">
+			<h3 class="category">{{ post.title | escape }}</h3>
+			<p class="date">{{ post.date | date_to_long_string }}</p>
+			<p class="description">{{ post.description | escape }}</p>
+		</div>
+		</a>
+		{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
+	</div> -->
 	<!-- Secondary Projects -->
 <div id="secondary-projects">
 	<div class="bd-websites">

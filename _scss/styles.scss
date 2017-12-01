@@ -86,9 +86,26 @@ p a:link:hover,p a:visited:hover{
 #main-project{margin-bottom: 1em;}
 
 .collection-tag-tiles__hero-image {
-    height: 200px;
+    height: 300px;
     margin-bottom: 1em;
     transition: box-shadow 0.2s ease-in-out;
+    border-radius: 3px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+
+    &:before {
+     content: '';
+         position: absolute;
+         top: 0;
+         right: 0;
+         bottom: 0;
+         left: 0;
+        background-image: linear-gradient(to bottom right, #094480, #ffffff00);
+         opacity: .6;
+ }
 }
 .collection-tag-tiles__hero-image:hover {
   cursor: pointer;
@@ -114,6 +131,18 @@ p a:link:hover,p a:visited:hover{
     margin-top: 10px;
     font-weight: 400;
     color: #2e3333;
+}
+.badge span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    letter-spacing: 1px;
+    padding: 3px 6px;
+    background-color: $blue;
+    text-transform: uppercase;
 }
 .bd-websites {
   display: -webkit-box;
