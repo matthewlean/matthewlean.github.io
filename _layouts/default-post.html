@@ -4,7 +4,19 @@
 <body>
   <div class="page-wrapper">
 
-  {% include header.html %}
+  {% include header-alt.html %}
+
+<div id="hero-header" style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;">
+  <div class="site-container">
+    <div class="header-content-container">
+      <div class="header-content">
+        <h1>{{ page.title }}</h1>
+				<p class="date">{{ post.date | date_to_long_string }}</p>
+				<p class="description">{{ post.description | escape }}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
   <div class="post">
     {{ content }}

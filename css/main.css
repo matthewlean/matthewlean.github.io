@@ -455,12 +455,6 @@ p a:link:hover, p a:visited:hover {
   border-radius: 3px 3px 0 0;
   border-bottom: 1px solid #eceef1; }
 
-.banner svg {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 4vw !important; }
-
 .primary .heroheader {
   background-color: #fff;
   float: left;
@@ -608,8 +602,17 @@ p a:link:hover, p a:visited:hover {
 .banner {
   position: relative;
   height: 200px;
-  background: linear-gradient(270deg, #00d0ff, #036aed);
-  height: 200px; }
+  background: linear-gradient(270deg, #00d0ff, #036aed); }
+
+.banner-s {
+  position: relative;
+  background: linear-gradient(270deg, #00d0ff, #036aed); }
+
+.banner svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4vw !important; }
 
 /*Medium Screen */
 @media (max-width: 1021px) {
@@ -646,6 +649,31 @@ footer .section-alt {
 footer .section-alt .fa {
   color: #f2f2f2;
   margin-left: 5px; }
+
+#hero-header {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.header-content-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.header-content {
+  text-align: center;
+  padding: 150px 0 136px;
+  position: relative;
+  z-index: 2;
+  width: 100%; }
 
 body {
   background: white; }
