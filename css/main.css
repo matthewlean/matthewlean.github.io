@@ -331,7 +331,7 @@ p a:link:hover, p a:visited:hover {
 #main-project {
   margin-bottom: 1em; }
 
-.collection-tag-tiles__hero-image {
+.project-image {
   height: 300px;
   margin-bottom: 1em;
   transition: box-shadow 0.2s ease-in-out;
@@ -341,21 +341,21 @@ p a:link:hover, p a:visited:hover {
   background-repeat: no-repeat;
   text-align: center;
   position: relative; }
-  .collection-tag-tiles__hero-image:before {
+  .project-image:before {
     content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: linear-gradient(to bottom right, #094480, #ffffff00);
-    opacity: .6; }
+    background-image: linear-gradient(to bottom right, #036bed, #ffffff00);
+    opacity: .8; }
 
-.collection-tag-tiles__hero-image:hover {
+.project-image:hover {
   cursor: pointer;
   box-shadow: 0px 5px 20px 5px rgba(46, 51, 51, 0.2); }
 
-.collection-tag-tiles__name {
+.project-name {
   font-size: 1.5em;
   font-weight: 600;
   color: #fff;
@@ -368,7 +368,7 @@ p a:link:hover, p a:visited:hover {
   line-height: 1.15;
   font-family: "Open Sans",sans-serif; }
 
-.collection-tag-tiles__description {
+.project-description {
   font-family: "Open Sans",sans-serif;
   font-weight: 400;
   line-height: 1.4;
@@ -376,6 +376,23 @@ p a:link:hover, p a:visited:hover {
   margin-top: 10px;
   font-weight: 400;
   color: #2e3333; }
+
+.projects {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.project {
+  width: calc(33% - 0.5em);
+  display: block;
+  position: relative;
+  margin-bottom: 1em; }
+
+#secondary-projects .project-image {
+  height: 250px; }
 
 .badge span {
   display: inline-block;
@@ -388,29 +405,6 @@ p a:link:hover, p a:visited:hover {
   padding: 3px 6px;
   background-color: #0f6aea;
   text-transform: uppercase; }
-
-.bd-websites {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-
-.bd-website {
-  width: calc(33% - 0.5em);
-  display: block;
-  position: relative;
-  margin-bottom: 1em; }
-
-.bd-website-large {
-  width: 100%;
-  max-height: 220px;
-  display: block;
-  position: relative;
-  margin-bottom: 1em;
-  background-color: #29cb71;
-  border-radius: 3px; }
 
 .post {
   width: 100%;

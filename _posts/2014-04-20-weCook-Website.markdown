@@ -4,7 +4,7 @@ title:  "weCook Website"
 date:  2017-03-11
 category: jekyll post weCook featured
 category-type: Website
-img: 20171103-weCook-thumb.jpg
+img: 20171103-weCook-website-thumb.jpg
 author: matthew_lean
 description: weCook is a social recipe website, designed to make it easy to follow and edit recipes. Recipes added to the site are open to editing by all users, allowing for multiple versions of the recipe to be made.
 # Extras.

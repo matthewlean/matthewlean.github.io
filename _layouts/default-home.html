@@ -56,68 +56,57 @@
 	<div id="main-project">
 		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
 		<a href="{{ post.url }}">
-		<div class="collection-tag-tiles__hero-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
-			<div class="collection-tag-tiles__name">
+		<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+			<div class="project-name">
 				<div class="badge">
 					<span>Recent Project</span>
 				</div>
 				{{ post.title | escape }}</div>
 		</div>
-		<div class="collection-tag-tiles__description">
+		<!-- <div class="project-description">
 			<h3 class="category">{{ post.title | escape }}</h3>
 			<p class="date">{{ post.date | date_to_long_string }}</p>
 			<p class="description">{{ post.description | escape }}</p>
-		</div>
+		</div> -->
 		</a>
 		{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
 	</div>
 
-	<!-- <div id="main-project">
-		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
-		<a href="{{ post.url }}">
-		<div class="collection-tag-tiles__hero-image" style="background: linear-gradient(270deg, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});">
-			<div class="collection-tag-tiles__name">{{ post.title | escape }}</div>
-		</div>
-		<div class="collection-tag-tiles__description">
-			<h3 class="category">{{ post.title | escape }}</h3>
-			<p class="date">{{ post.date | date_to_long_string }}</p>
-			<p class="description">{{ post.description | escape }}</p>
-		</div>
-		</a>
-		{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
-	</div> -->
 	<!-- Secondary Projects -->
-<div id="secondary-projects">
-	<div class="bd-websites">
-		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "featured" %} {% assign count = count | plus:1 %}
-		<div class="bd-website">
-			<a href="{{ post.url }}">
-			<div class="collection-tag-tiles__hero-image" style="background: linear-gradient(270deg, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});">
-				<div class="collection-tag-tiles__name">{{ post.title | escape }}</div>
+	<div id="secondary-projects">
+		<div class="projects">
+			{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "featured" %} {% assign count = count | plus:1 %}
+			<div class="project">
+				<a href="{{ post.url }}">
+				<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+					<div class="project-name">
+						<!-- <div class="badge">
+							<span>Recent Project</span>
+						</div> -->
+						{{ post.title | escape }}</div>
+				</div>
+				<div class="project-description">
+					<h3 class="category">{{ post.title | escape }}</h3>
+					<p class="date">{{ post.date | date_to_long_string }}</p>
+					<p class="description">{{ post.description | escape }}</p>
+				</div>
+				</a>
 			</div>
-			<div class="collection-tag-tiles__description">
-				<h3 class="category">{{ post.title | escape }}</h3>
-				<p class="date">{{ post.date | date_to_long_string }}</p>
-				<p class="description">{{ post.description | escape }}</p>
-			</div>
-		</a>
+			{% if count == 3 %}{% break %} {% endif %} {% endif %} {% endfor %}
 		</div>
-		{% if count == 3 %}{% break %} {% endif %} {% endif %} {% endfor %}
 	</div>
-</div>
-</div>
-<!-- <div class="collection-tag-tiles__description" data-reactid=".nriest68zk.2.2.0.1.$287.1"><span data-reactid=".nriest68zk.2.2.0.1.$287.1.0">No need to throw your diet into disarray. These nutritious and delicious dishes will put a major spring in your step.</span><span class="collection-tag-tiles__link">View Healthy Food →</span></div> -->
-
+	</div>
 
 </div>
 
-      <!--build:js js/main.min.js -->
-      <script src="js/lib/a-library.js"></script>
-      <script src="js/lib/another-library.js"></script>
-      <script src="js/main.js"></script>
-      <!-- endbuild -->
+<!--build:js js/main.min.js -->
+<!-- <script src="js/lib/a-library.js"></script>
+<script src="js/lib/another-library.js"></script>
+<script src="js/main.js"></script> -->
+<!-- endbuild -->
 
 </div>
+
 {% include footer.html %}
 
 </body>
