@@ -11,18 +11,27 @@
   		<h3>Projects</h3>
   		<p>Website Design</p>
   	</div>
-  	<div class="bd-websites">
-  		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %} {% assign count = count | plus:1 %}
-  		<article class="bd-website ">
-  			<a href="{{ post.url }}">
-  	                    <img class="b-lazy" src="{{site.baseurl}}/assets/site-post/{{post.img}}" height="420">
-  	                  <span class="bd-website-overlay is-overlay"></span>
-  	              </a>
-  			<h3 class="bd-website-date">{{ post.title | escape }}</h3>
-  			<p class="has-text-grey-light bd-website-date">{{ post.date | date_to_long_string }}</p>
-  		</article>
-  		{% if count == 12 %}{% break %} {% endif %} {% endif %} {% endfor %}
-  	</div>
+  	<div class="projects">
+			{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %} {% assign count = count | plus:1 %}
+			<div class="project">
+				<a href="{{ post.url }}">
+				<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+					<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});" class="project-image-gradient"></div>
+					<div class="project-name">
+						<!-- <div class="badge">
+							<span>Recent Project</span>
+						</div> -->
+						{{ post.title | escape }}</div>
+				</div>
+				<div class="project-description">
+					<h3 class="category">{{ post.title | escape }}</h3>
+					<p class="date">{{ post.date | date_to_long_string }}</p>
+					<p class="description">{{ post.description | escape }}</p>
+				</div>
+				</a>
+			</div>
+			{% if count == 6 %}{% break %} {% endif %} {% endif %} {% endfor %}
+		</div>
   </div>
 </div>
 

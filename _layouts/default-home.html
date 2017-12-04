@@ -57,6 +57,7 @@
 		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
 		<a href="{{ post.url }}">
 		<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+			<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});" class="project-image-gradient"></div>
 			<div class="project-name">
 				<div class="badge">
 					<span>Recent Project</span>
@@ -79,6 +80,7 @@
 			<div class="project">
 				<a href="{{ post.url }}">
 				<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+					<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});" class="project-image-gradient"></div>
 					<div class="project-name">
 						<!-- <div class="badge">
 							<span>Recent Project</span>

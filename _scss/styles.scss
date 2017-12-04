@@ -86,7 +86,7 @@ p a:link:hover,p a:visited:hover{
 #main-project{margin-bottom: 1em;}
 
 .project-image {
-    height: 300px;
+    height: 250px;
     margin-bottom: 1em;
     transition: box-shadow 0.2s ease-in-out;
     border-radius: 3px;
@@ -95,17 +95,14 @@ p a:link:hover,p a:visited:hover{
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
-
-    &:before {
-     content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right, #036bed, #ffffff00);
-    opacity: .8;
-    }
+}
+.project-image-gradient{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .8;
 }
 .project-image:hover {
   cursor: pointer;
@@ -149,7 +146,7 @@ p a:link:hover,p a:visited:hover{
   margin-bottom: 1em;
 }
 
-#secondary-projects .project-image{height: 250px;}
+#main-project .project-image{height: 300px;}
 
 .badge span{
     display: inline-block;
