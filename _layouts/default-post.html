@@ -6,13 +6,14 @@
 
   {% include header-alt.html %}
 
-<div id="hero-header" style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;">
+<div id="hero-header" style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative;">
+	<div style="background-image: linear-gradient(to bottom right, #{{ page.color-1 | escape }}, #{{ page.color-2 | escape }});" class="project-image-gradient"></div>
   <div class="site-container">
     <div class="header-content-container">
       <div class="header-content">
-        <h1>{{ page.title }}</h1>
-				<p class="date">{{ post.date | date_to_long_string }}</p>
-				<p class="description">{{ post.description | escape }}</p>
+        <h1 class="project-name">{{ page.title }}</h1>
+				<p class="description">{{ page.description | escape }}</p>
+        <p class="date">{{ page.date | date_to_long_string }}</p>
       </div>
     </div>
   </div>

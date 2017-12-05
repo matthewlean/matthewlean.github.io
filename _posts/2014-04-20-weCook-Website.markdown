@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default-post
 title:  "weCook Website"
 date:  2017-03-11
 category: jekyll post weCook featured
