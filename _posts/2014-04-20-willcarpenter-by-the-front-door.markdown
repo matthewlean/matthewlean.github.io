@@ -1,14 +1,18 @@
 ---
-layout: post
-title:  "welcome to jekyll markdown"
-show: raw
-img: 20171015-youtube-thumb.jpg
-category: jekyll post
+layout: default-post
+title:  "Will Carpenter – By The Front Door [Official Lyric Video]"
+date:  2017-03-11
+category: jekyll post video featured
+category-type: graphics
+img: 20171103-By-The-Front-Door-thumb.jpg
+author: matthew_lean
+description: By The Front Door is one of the songs Will released on his EP – Radio Blues. He asked me if I could create a handwritten lyric video to use for the song.
+# Extras.
+color-1: 1a0056
+color-2: f2f2f2
 comments: true
 published: true
-permalink: /:year/:title/
-# Author.
-author: matthew_lean
+permalink: /:title/
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

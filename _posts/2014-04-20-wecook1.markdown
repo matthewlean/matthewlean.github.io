@@ -2,7 +2,7 @@
 layout: default-post
 title:  "weCook Website"
 date:  2017-03-11
-category: jekyll post weCook featured
+category: jekyll post weCook
 category-type: Website
 img: 20171103-weCook-website-thumb.jpg
 author: matthew_lean
@@ -12,7 +12,7 @@ color-1: 0e6aed
 color-2: 0e6aed
 comments: true
 published: true
-permalink: /:year/:title/
+permalink: /:title/
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

@@ -329,7 +329,7 @@ p a:link:hover, p a:visited:hover {
   min-height: calc(100vh - 50px); }
 
 #main-project {
-  margin-bottom: 1em; }
+  margin: 1em 0; }
 
 #hero-header p {
   max-width: 600px;
@@ -436,6 +436,11 @@ p a:link:hover, p a:visited:hover {
   line-height: 1.04;
   letter-spacing: -.028em;
   margin: 0; }
+
+.post img {
+  width: 100%;
+  height: auto;
+  margin: 30px 0 30px 0; }
 
 .post .meta {
   font-size: 1em;
@@ -640,7 +645,7 @@ footer .section p {
   line-height: 50px; }
 
 footer .section-alt {
-  line-height: 50px;
+  height: 50px;
   float: right; }
 
 footer .section-alt {
