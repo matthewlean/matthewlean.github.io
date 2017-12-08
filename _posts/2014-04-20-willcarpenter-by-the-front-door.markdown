@@ -1,7 +1,7 @@
 ---
 layout: default-post
 title:  "Will Carpenter – By The Front Door [Official Lyric Video]"
-date:  2017-03-11
+date:  2017-04-20
 category: jekyll post video featured
 category-type: graphics
 img: 20171103-By-The-Front-Door-thumb.jpg
@@ -15,20 +15,12 @@ published: true
 permalink: /:title/
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+By The Front Door is one of the songs Will released on his EP – Radio Blues. He asked me if I could create a handwritten lyric video to use for the song. I thought this would give me a good enough excuse to dig out my graphics tablet and took him up on it. After listening to the song a few times and getting a feel for it, I started doing some rough sketches of some of the scenes described in the lyrics.
 
-Jekyll also offers powerful support for code snippets:
+![By the front door]({{ site.url }}/assets/site-post/20171103-By-The-Front-Door-thumb.jpg)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Will was pretty kind and said my pretty bad art style was fine and fitted the feel for the song. So I continued on, drawing scenes and getting a consistant look throughtout the whole video. After finishing with the drawing I moved onto the text, I wanted to make it feel animated which led me writing all the lines from the song 3 times and looping through these to give the text some motion. I also did this with the drawings, to keep again a consistant feel, and to give the video a more dynamic feel.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+<div style='position:relative; padding-bottom:74%'><iframe src='https://gfycat.com/ifr/CourageousDaringHoki' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+<iframe width="500" height="281" src="https://www.youtube.com/embed/F4DffiVg2dw?ecver=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
