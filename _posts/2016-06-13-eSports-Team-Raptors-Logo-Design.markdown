@@ -17,7 +17,7 @@ permalink: /:title/
 
 They gave me free creative freedom with my design. I ended up looking at American Football team mascots and the style of using an animal with some bold outlined text. This style led me to consider the name Raptors and to use the Velociraptor genus as the team mascot.
 
-![eSports team raptors logo outlines]({{ site.url }}/assets/site-post/outlineraptorslogo.png)
+![eSports team raptors logo outlines]({{ site.url }}/assets/site-post/outlineraptorslogo.png){:class="img-responsive"}
 
 I started creating the text part of the logo in Illustrator first, starting with a font and using create outlines to allow me to edit the size and structure of the font. I then added a dark outline to the text to make the green stand out more and to match the outlined American Football team style. I also gave the text a shadow, by copying the layer behind and connecting the edges to the shadowed darker text layer behind it. I finally gave the text a slant and readjusted the first R to make it match the other more fuller at the end of the word.
 
