@@ -198,6 +198,9 @@ p a:link:hover,p a:visited:hover{
     height: auto;
     margin: 30px 0 30px 0;
 }
+a.image{
+      border-bottom: none!important;
+}
 .post .meta{
   font-size: 1em;
   padding: 0;
@@ -336,6 +339,15 @@ p a:link:hover,p a:visited:hover{
 .primary .content-wrap-alt{
   margin: 20px 0 0 0;
   width: 100%;
+}
+.project {
+    width: 100%;
+}
+.post {
+    width: 90%;
+}
+.post p{
+  font-size: 17px;
 }
 }
 

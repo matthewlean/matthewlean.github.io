@@ -18,7 +18,7 @@ permalink: /:title/
 The EU Dota2 Discord Community was founded in the start of 2016. Discord is VoIP (VoiceOverIP) designed for gaming communities. The community website needed to give a clean and modern looking front and also to promote the new forum which was in the process of being created.
 I started with the sections of the websites, these would show features of the community.
 
-<a href="{{site.baseurl}}/assets/site-post/discordSection.png" data-lightbox="image-2" data-title="Character profile" class="img-responsive" style="text-align: center">
+<a href="{{site.baseurl}}/assets/site-post/discordSection.png" data-lightbox="image-2" data-title="Character profile" class="image img-responsive" style="text-align: center">
  <img src="{{site.baseurl}}/assets/site-post/discordSection.png" alt="{{page.title}}">
 </a>
 
