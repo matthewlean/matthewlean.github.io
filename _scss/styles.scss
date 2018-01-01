@@ -81,6 +81,17 @@ p a:link:hover,p a:visited:hover{
 .m-top-minus-150{margin-top: -150px!important;}
 .page-wrapper{min-height: calc(100vh - 50px);}
 
+
+.photography-block{
+  height: 200px;
+  background-color: $light-grey;
+  background-position: 50%;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.photography-block:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 5px rgba(46, 51, 51, 0.2);
+}
 // Bulma // ----------------------------------
 // projects
 #main-project{margin: 1em 0;}

@@ -6,7 +6,7 @@ category: jekyll post graphics
 category-type: graphics
 img: 20140327-blender-cinema4d-thumb.jpg
 author: matthew_lean
-description: Blender and Cinema4D, learning new rendering engines. 
+description: Blender and Cinema4D, learning new rendering engines.
 # Extras.
 color-1: ff8fb066
 color-2: ff590000
