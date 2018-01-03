@@ -749,5 +749,20 @@ footer .section-alt .fa {
   left: 0;
   right: 0; }
 
+#photography {
+  margin: 1em 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+#photography .img {
+  width: calc(33% - 0.5em);
+  display: block;
+  position: relative;
+  margin-bottom: 1em; }
+
 body {
   background: white; }

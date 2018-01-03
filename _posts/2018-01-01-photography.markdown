@@ -15,6 +15,4 @@ published: true
 permalink: /:title/
 ---
 
-![blender render green low poly shape 1]({{ site.url }}/assets/site-post/blender-green-1.jpg)
-
-![blender render pink low poly shape 2]({{ site.url }}/assets/site-post/blender-pink-2.jpg)
+Test Content
