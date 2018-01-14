@@ -37,12 +37,14 @@
 
 	<!-- Main Project -->
 	<div id="photography">
-		<div class="img"><img src="{{site.baseurl}}/assets/photography/rainbow-breakfast.jpg"></img></div>
-		<div class="img"><img src="{{site.baseurl}}/assets/photography/harrods-tea.jpg"></img></div>
-		<div class="img"><img src="{{site.baseurl}}/assets/photography/bournemouth-station.jpg"></img></div>
-		<div class="img"><img src="{{site.baseurl}}/assets/photography/underground-long-tunnel.jpg"></img></div>
-		<div class="img"><img src="{{site.baseurl}}/assets/photography/underground-museum-tunnel.jpg"></img></div>
-	</div>
+
+    {% for image in site.static_files %}
+    {% if image.path contains 'photography' %}
+        <div href="#" data-featherlight="{{ site.baseurl }}{{ image.path }}" class="img"><img src="{{ site.baseurl }}{{ image.path }}"></img></div>
+    {% endif %}
+    {% endfor %}
+
+  </div>
 
 </div>
 
