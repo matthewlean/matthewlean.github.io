@@ -20,7 +20,7 @@ permalink: /:title/
 After talking with my group about the initial design of and going head with my design idea I then went onto making a slightly more fleshed out design, which showed my new ideas and changes to my initial design.
 I also went and created all the shapes used in the game for all the questions. My idea was to make at least 2 similar shapes and 2 which are incorrect. This made designing all the shapes quite easy when the questions where decided upon. This also helped as I took many pictures during our 3 visits to Salisbury Cathedral.
 
-![salisbury cathedral app project mockups]({{ site.url }}/assets/site-post/20150520-salisbury-cathedral-app-project-thumb.jpg)
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/20150520-salisbury-cathedral-app-project-thumb.jpg" class="img" alt="salisbury cathedral app project mockups"><img src="{{ site.url }}/assets/site-post/20150520-salisbury-cathedral-app-project-thumb.jpg"></div>
 
 # The Design and Alterations
 

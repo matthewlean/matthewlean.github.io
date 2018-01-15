@@ -175,6 +175,9 @@ p a:link:hover,p a:visited:hover{
     margin-right: auto;
     margin-top: 50px;
 }
+.post .img:hover{
+  cursor:pointer;
+}
 .post p {
     font-family: Open Sans, sans-serif;
     color: $dark-grey;
