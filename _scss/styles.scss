@@ -83,7 +83,7 @@ p a:link:hover,p a:visited:hover{
 
 // Bulma // ----------------------------------
 // projects
-#main-project{margin: 1em 0;}
+#main-project, #secondary-projects{margin: 1em 0;}
 #main-project .project-image{height: 300px;}
 #main-project .project-name{font-size: 2.5em;}
 
@@ -346,7 +346,10 @@ a.image{
   width: 100%;
 }
 .project {
-    width: 100%;
+    width: calc(50% - .5em);
+}
+.project:last-child{
+  margin: 0 ;
 }
 
 .post {
@@ -367,5 +370,8 @@ a.image{
 .primary .content-wrap .image {
     width: 100%;
     display:flex;justify-content:center;align-items:center;
+}
+.project {
+    width: 100%;
 }
 }
