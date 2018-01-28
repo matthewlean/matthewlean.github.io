@@ -1,12 +1,12 @@
 ---
 layout: default-post
-title: "eSports Team Raptors – Logo Design"
+title: "EU Dota2 Discord Community - UI Website Design"
 date:  2017-07-11
 category: jekyll post video featured
 category-type: graphics
 img: 20170711-EU-Dota2-Discord-thumb.jpg
 author: matthew_lean
-description: A group of my friends wanted a logo and mascot created for a team they were possibly making for an upcoming tournament and asked me if I could put something together for them.
+description: UI website design and development for the EU Dota2 Discord Community. Creating a custom landing page to promote the group and mock up graphics for a forum.
 # Extras.
 color-1: ef5036
 color-2: ee9c36
@@ -21,6 +21,9 @@ I started with the sections of the websites, these would show features of the co
 <div href="#" data-featherlight="{{site.baseurl}}/assets/site-post/discordSection.png" class="img" alt="The Eu Dota 2 Discord Server"><img src="{{site.baseurl}}/assets/site-post/discordSection.png"></div>
 
 The website colour scheme was based on the Discord colour palette which made the look of the website to link to the Discord UI and show the relationship both the community and the software has. After creating sections on the amount of users, games and the forum the admins were happy with the design.
+
+Website link - <a href="http://dotadiscord.xyz/">dotadiscord.xyz</a>
+
 
 ## Forum Design
 
