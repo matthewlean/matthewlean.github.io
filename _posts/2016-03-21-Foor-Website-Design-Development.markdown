@@ -1,8 +1,8 @@
 ---
 layout: default-post
-title: "Foor"
+title: "Foor - Website Design & Development"
 date:  2016-03-21
-category: jekyll post
+category: jekyll post website
 category-type: website
 img: 20160321-foor-logo-thumb.jpg
 author: matthew_lean

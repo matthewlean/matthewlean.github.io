@@ -1,6 +1,6 @@
 ---
 layout: default-post
-title: "TriUk – Website Design"
+title: "TriUk – Website Splashpage Redesign"
 date:  2017-05-10
 category: jekyll post website
 category-type: website
@@ -15,7 +15,7 @@ published: true
 permalink: /:title/
 ---
 
-# Black Friday – Homepage Redesign
+## Black Friday – Homepage Redesign
 
 TriUk.com is an eCommerce website which sells bikes and triathlon gear. The main page highlights the newest deals and is the most important page on the site. The page also links to promotions, deals and in-store features which the Yeovil based shop offers.
 I was given the task of redesigning the main page of the website to give it a more up to date modern look. The design had to make the page easier to navigate, read and be able to easily transferred over to the mobile site.

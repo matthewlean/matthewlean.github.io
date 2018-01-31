@@ -1,8 +1,8 @@
 ---
 layout: default-post
-title: "Salisbury Cathedral App Project"
+title: "Salisbury Cathedral - Uni App Project"
 date:  2015-05-20
-category: jekyll post graphic
+category: jekyll post graphic app
 category-type: graphic
 img: 20150520-salisbury-cathedral-app-project-thumb.jpg
 author: matthew_lean
@@ -15,14 +15,14 @@ published: true
 permalink: /:title/
 ---
 
-# Design Mockups
+## Design Mockups
 
 After talking with my group about the initial design of and going head with my design idea I then went onto making a slightly more fleshed out design, which showed my new ideas and changes to my initial design.
 I also went and created all the shapes used in the game for all the questions. My idea was to make at least 2 similar shapes and 2 which are incorrect. This made designing all the shapes quite easy when the questions where decided upon. This also helped as I took many pictures during our 3 visits to Salisbury Cathedral.
 
 <div href="#" data-featherlight="{{ site.url }}/assets/site-post/20150520-salisbury-cathedral-app-project-thumb.jpg" class="img" alt="salisbury cathedral app project mockups"><img src="{{ site.url }}/assets/site-post/20150520-salisbury-cathedral-app-project-thumb.jpg"></div>
 
-# The Design and Alterations
+## The Design and Alterations
 
 The app design has changed in small ways throughout the input of the client and from our group and the way we wanted the app to be presented. At the start of the design the app was predominantly white with a few bright primary colours which stood out and surrounded the answers to the questions for the app. I also designed the app to have a minimalistic feel to it, to make navigation and visual aids easy to understand. The app was also presented in a specific way, with the main buttons being circular and the answers having a similarly bright outline to them.
 After being given the colour scheme and visiting the Cathedral in our own time, we decided to change the main design of the app to fit in with the rest of the exhibit and the other graphics used by Red Balloon. This meant removing the white background and replacing it with a cream colour which matched the colour palette. After looking around the exhibition I realised that the bright colours in contrast would not fit but instead have a two tone colour scheme which would accent the content but not make each piece of content fight for the attention of the audience. This level of hierarchy would allow the app to have order and allow subtle visual pointers for easy navigation of the app.

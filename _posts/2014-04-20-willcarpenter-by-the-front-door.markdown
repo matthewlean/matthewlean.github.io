@@ -1,8 +1,8 @@
 ---
 layout: default-post
-title:  "Will Carpenter – By The Front Door [Official Lyric Video]"
+title:  "By The Front Door - Lyric Video Motion Graphic Design"
 date:  2017-04-20
-category: jekyll post video featured
+category: jekyll post video graphic featured
 category-type: graphics
 img: 20171103-By-The-Front-Door-thumb.jpg
 author: matthew_lean
@@ -14,6 +14,8 @@ comments: true
 published: true
 permalink: /:title/
 ---
+
+## Will Carpenter – By The Front Door [Official Lyric Video]
 
 By The Front Door is one of the songs Will released on his EP – Radio Blues. He asked me if I could create a handwritten lyric video to use for the song. I thought this would give me a good enough excuse to dig out my graphics tablet and took him up on it. After listening to the song a few times and getting a feel for it, I started doing some rough sketches of some of the scenes described in the lyrics.
 

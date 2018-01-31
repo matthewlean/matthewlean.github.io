@@ -15,7 +15,7 @@ published: true
 permalink: /:title/
 ---
 
-# Gravity Trailer
+## Gravity Trailer
 
 For my first motion typography piece I decided to choose the gravity trailer as this could be interesting to do and play around the z-axis and depth of field. I chose to use different colour fonts for each character as this would separate them from each other and make it easier for the audience to follow.
 I used animations on the position of the text to illustrate the movements of the characters , for instance spinning the whole sentence for the section where the female protagonist spins out of control away from the spaceship. I also animated the detach by making it seem to break away from the sentence. The outcome for these types of animation are effective however feel very expected and not original or creative. In my next kinetic typography piece I will try and make the depiction of the movement in the text more subtle which would create a more interesting piece which seemed more clean and creative. I was happy with this piece as the timing of the text and its readability was clear throughout the animation. I would have liked to look into animating the text with her breathing and making a subtle font size change to emphasize this.

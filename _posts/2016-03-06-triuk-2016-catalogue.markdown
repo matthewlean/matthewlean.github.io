@@ -1,8 +1,8 @@
 ---
 layout: default-post
-title: "TriUk – 2016 Catalogue"
+title: "TriUk – 2016 Catalogue Print Design"
 date:  2017-03-06
-category: jekyll post graphic
+category: jekyll post graphic print
 category-type: graphic
 img: 20170306-triuk-2016-catalogue-thumb.jpg
 author: matthew_lean

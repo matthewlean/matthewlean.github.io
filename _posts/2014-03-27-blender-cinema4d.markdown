@@ -2,7 +2,7 @@
 layout: default-post
 title: "Blender / Cinema 4D"
 date:  2014-03-27
-category: jekyll post graphics
+category: jekyll post graphic
 category-type: graphics
 img: 20140327-blender-cinema4d-thumb.jpg
 author: matthew_lean
@@ -15,7 +15,7 @@ published: true
 permalink: /:title/
 ---
 
-# Cinema 4D
+## Cinema 4D
 
 When looking at Blender I realised that it was very similar to Cinema 4D which is a 3D rendering program that I used before. Many of the techniques of lighting and texturing were similar so this meant I only had to learn my way around the user interface to understand what I was doing.
 Below are some of the work I did previously with Cinema 4D.

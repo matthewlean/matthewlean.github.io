@@ -1,6 +1,6 @@
 ---
 layout: default-post
-title: "Innovate"
+title: "Innovate - Uni Project"
 date:  2014-10-12
 category: jekyll post video
 category-type: video
@@ -20,7 +20,7 @@ permalink: /:title/
 After talking with my group about the initial design of and going head with my design idea I then went onto making a slightly more fleshed out design, which showed my new ideas and changes to my initial design.
 I also went and created all the shapes used in the game for all the questions. My idea was to make at least 2 similar shapes and 2 which are incorrect. This made designing all the shapes quite easy when the questions where decided upon. This also helped as I took many pictures during our 3 visits to Salisbury Cathedral.
 
-# The Logo
+## The Logo
 
 For the channel brief a logo was needed for our company. We first brainstormed ideas for a film and movie review channel. The idea was of a company was an internet based video service which showcased trailers and behind the scenes footage. When coming up with a brand name I wanted to have a name which would stand out and be short and easy to say. The name would also have to be related to videos or films. We brainstormed ideas such as Film Reviews, Scene and Movie Watch. We finally decided on the name ClipCut. After choosing this brand name I then went onto designing the logo. I wanted to incorporate either a film reel or use a cut-out or cut design by slicing the logo or text in half. The preliminary designs consisted of using the letter c. I then changed the direction of the second “C” to make a circle. I liked this design and continued using this concept through the designing process. I started making the circles very straight and used straight lines and hard edges to give the Impression of a cut out. I then changed this idea as it looked unprofessional and rushed and made a mock up in Adobe Illustrator using curves and a gradient on the text. Later this moved into Photoshop and was refined to a thinner design with a black and grey colour without the gradient. I was happy with this final design as it kept with the simplistic concept we had and the cut-out slice which I came up with in the planning.
 
