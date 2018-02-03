@@ -2,7 +2,7 @@
 layout: default-post
 title: "Keytek Locksmith Training Academy - Wordpress Site"
 date:  2017-11-20
-category: jekyll website post
+category: jekyll website post featured
 category-type: website
 img: locksmith-training-render.jpg
 author: matthew_lean
