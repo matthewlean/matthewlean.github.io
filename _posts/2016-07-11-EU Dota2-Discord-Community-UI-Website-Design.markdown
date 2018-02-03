@@ -5,14 +5,14 @@ date:  2017-07-11
 category: jekyll post graphic featured
 category-type: graphics
 img: 20170711-EU-Dota2-Discord-thumb.jpg
-author: matthew_lean
+author: matthew-lean
 description: UI website design and development for the EU Dota2 Discord Community. Creating a custom landing page to promote the group and mock up graphics for a forum.
 # Extras.
 color-1: ef5036
 color-2: ee9c36
 comments: true
 published: true
-permalink: /:title/
+permalink: /eu-dota-2-discord/
 ---
 
 The EU Dota2 Discord Community was founded in the start of 2016. Discord is VoIP (VoiceOverIP) designed for gaming communities. The community website needed to give a clean and modern looking front and also to promote the new forum which was in the process of being created.
