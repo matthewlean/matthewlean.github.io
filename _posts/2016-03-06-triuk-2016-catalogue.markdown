@@ -12,7 +12,7 @@ color-1: 0f0f0f
 color-2: e42628
 comments: true
 published: true
-permalink: /:title/
+permalink: /triuk-2016-catalogue/
 ---
 
 <div href="#" data-featherlight="{{ site.url }}/assets/site-post/20170306-triuk-2016-catalogue-thumb.jpg" class="img" alt="triuk 2016 catalogue banner"><img src="{{ site.url }}/assets/site-post/20170306-triuk-2016-catalogue-thumb.jpg"></div>

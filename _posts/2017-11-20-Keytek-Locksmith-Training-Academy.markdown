@@ -12,7 +12,7 @@ color-1: ffffff00
 color-2: 2f2f2f
 comments: true
 published: true
-permalink: /:title/
+permalink: /keytek-academy/
 ---
 
 ## Wordpress Theme Design Render

@@ -12,7 +12,7 @@ color-1: ef5036
 color-2: ee9c36
 comments: true
 published: true
-permalink: /eu-dota-2-discord/
+permalink: /eu-dota2-discord/
 ---
 
 The EU Dota2 Discord Community was founded in the start of 2016. Discord is VoIP (VoiceOverIP) designed for gaming communities. The community website needed to give a clean and modern looking front and also to promote the new forum which was in the process of being created.

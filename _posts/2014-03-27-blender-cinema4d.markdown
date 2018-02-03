@@ -12,7 +12,7 @@ color-1: ff8fb066
 color-2: ff590000
 comments: true
 published: true
-permalink: /:title/
+permalink: /blender-cinema4d/
 ---
 
 ## Cinema 4D

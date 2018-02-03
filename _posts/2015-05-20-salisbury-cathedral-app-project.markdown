@@ -12,7 +12,7 @@ color-1: ddb644
 color-2: f2f2f2
 comments: true
 published: true
-permalink: /:title/
+permalink: /salisbury-app-project/
 ---
 
 ## Design Mockups

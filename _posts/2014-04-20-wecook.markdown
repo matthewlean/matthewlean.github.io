@@ -13,7 +13,7 @@ color-1: 00d0ff
 color-2: 0e6aed
 comments: true
 published: true
-permalink: /:title/
+permalink: /weCook/
 ---
 
 <!-- <iframe src="https://player.vimeo.com/video/215204627" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->

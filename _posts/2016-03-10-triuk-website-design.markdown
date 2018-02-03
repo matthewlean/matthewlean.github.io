@@ -12,7 +12,7 @@ color-1: 0f0f0f
 color-2: e42628
 comments: true
 published: true
-permalink: /:title/
+permalink: /triuk-splashpage/
 ---
 
 ## Black Friday – Homepage Redesign

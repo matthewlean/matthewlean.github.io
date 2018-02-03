@@ -12,7 +12,7 @@ color-1: b5b5b5
 color-2: 140e77
 comments: true
 published: true
-permalink: /:title/
+permalink: /motion-typography/
 ---
 
 ## Gravity Trailer

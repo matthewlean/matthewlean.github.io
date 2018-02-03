@@ -12,7 +12,7 @@ color-1: f6781c
 color-2: 0d39b7b0
 comments: true
 published: true
-permalink: /:title/
+permalink: /innovate/
 ---
 
 <div href="#" data-featherlight="{{ site.url }}/assets/site-post/innovateHeader.png" class="img" alt="innovate trailer monopoly house"><img src="{{ site.url }}/assets/site-post/innovateHeader.png"></div>

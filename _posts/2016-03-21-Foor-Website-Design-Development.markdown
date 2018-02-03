@@ -12,7 +12,7 @@ color-1: 5788c7
 color-2: f2f2f2
 comments: true
 published: true
-permalink: /:title/
+permalink: /foor-wetsuits/
 ---
 
 The EU Dota2 Discord Community was founded in the start of 2016. Discord is VoIP (VoiceOverIP) designed for gaming communities. The community website needed to give a clean and modern looking front and also to promote the new forum which was in the process of being created.

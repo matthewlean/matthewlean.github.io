@@ -12,7 +12,7 @@ color-1: 1a0056
 color-2: f2f2f2
 comments: true
 published: true
-permalink: /:title/
+permalink: /by-the-front-door/
 ---
 
 ## Will Carpenter – By The Front Door [Official Lyric Video]

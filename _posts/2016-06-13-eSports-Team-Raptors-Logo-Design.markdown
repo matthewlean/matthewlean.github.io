@@ -12,7 +12,7 @@ color-1: 2ecb70
 color-2: fbea82
 comments: true
 published: true
-permalink: /:title/
+permalink: /eSports-raptors/
 ---
 
 They gave me free creative freedom with my design. I ended up looking at American Football team mascots and the style of using an animal with some bold outlined text. This style led me to consider the name Raptors and to use the Velociraptor genus as the team mascot.
