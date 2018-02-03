@@ -15,9 +15,8 @@ published: true
 permalink: /keytek-academy/
 ---
 
-## Wordpress Theme Design Render
-
 <div href="#" data-featherlight="{{ site.url }}/assets/site-post/locksmith-training-render.jpg" class="img" alt="keytek academy design render"><img src="{{ site.url }}/assets/site-post/locksmith-training-render.jpg"></div>
+### Wordpress Theme Render
 
 The [Keytek Locksmith Training Academy](https://www.locksmiths-training.co.uk/) are a training provider for locksmith courses of various levels for the UK. Keytek needed a site to showcase the course content, host blog posts and provide information for students and for Keytek recruitment.
 
