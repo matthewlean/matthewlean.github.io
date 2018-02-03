@@ -2,7 +2,7 @@
 layout: default-post
 title: "eSports Team Raptors – Logo Design"
 date:  2017-06-13
-category: jekyll post graphic
+category: jekyll post graphic featured
 category-type: graphics
 img: 20170613-eSports-Team-Raptors-thumb.jpg
 author: matthew_lean
