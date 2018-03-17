@@ -21,8 +21,13 @@ footer .section-alt {
   float: right;
 }
 footer .section-alt {
-  display:flex;justify-content:center;align-items:center;
-  float: right;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: flex-end;
+    float: right;
 }
 footer .section-alt .fa{
   color: #f2f2f2;
