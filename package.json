@@ -4,7 +4,8 @@
   "description": "portfolio jekyll-gulp-sass-browser-sync",
   "main": "index.js",
   "dependencies": {
-    "browser-sync": "^2.18.13"
+    "browser-sync": "^2.18.13",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "browser-sync": "^2.18.13",
