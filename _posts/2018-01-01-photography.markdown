@@ -2,7 +2,7 @@
 layout: photography
 title: "Photography"
 date:  2018-01-01
-category: photography
+category: photography subpage
 category-type: photography
 img: rainbow-breakfast.jpg
 author: matthew_lean

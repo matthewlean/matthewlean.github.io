@@ -2,10 +2,13 @@
 <html>
 {% include head.html %}
 <body>
-<div class="page-wrapper">
-{% include header-main.html %}
+  <div class="page-wrapper">
 
-<div class="site-container m-top-minus-150">
+  {% include header-alt.html %}
+
+  {% include main-banner.html %}
+
+  <div class="site-container">
 
 <div class="primary columns is-multiline">
 	<div class="is-three-quarters is-12-mobile column content-wrap">
@@ -18,8 +21,7 @@
 				<p>Website Project Manager</p>
 				<div class="description">
 					<p>Digital Content Creator and graduate from Bournemouth University. Feel free to check out <a class="bio" href="/assets/site-docs/portfolio.pdf">my portfolio</a> for all my recent projects and graphics work. Extra info and writeup can be found on
-						<a
-						  class="bio" href="/blog/">my blog</a>
+						<a class="bio" href="/blog/">my blog</a>
 							and please <a class="bio" href="mailto:mttlean@gmail.com">contact</a> me if you have any questions. </p>
 				</div>
 			</div>
@@ -67,27 +69,30 @@
 		<h3>Projects</h3>
 		<p>Website Design</p>
 	</div> -->
+
 	<!-- Main Project -->
-	<div id="main-project">
-		{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
-		<a href="{{ post.url }}">
-		<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
-			<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});" class="project-image-gradient"></div>
+	<!-- <div id="main-project">
+
+		<a href="/weCook/">
+		<div class="project-image" style="background-image: url(/assets/site-post/wecook-trailer.jpg);background-size: cover;">
+			<div style="background-image: linear-gradient(to bottom right, #00d0ff, #0e6aed);" class="project-image-gradient"></div>
 			<div class="project-name">
 				<div class="badge">
 					<span>Recent Project</span>
 				</div>
-				{{ post.title | escape }}
+				weCook - Graduate Project
 			</div>
 		</div>
-		<!-- <div class="project-description">
-			<h3 class="category">{{ post.title | escape }}</h3>
-			<p class="date">{{ post.date | date_to_long_string }}</p>
-			<p class="description">{{ post.description | escape }}</p>
-		</div> -->
+
+
+		<div class="project-description">
+			<h3 class="category">weCook - Graduate Project</h3>
+			<p class="date">11 March 2017</p>
+			<p class="description">weCook is a social recipe website, designed to make it easy to follow and edit recipes. Recipes added to the site are open to editing by all users, allowing for multiple versions of the recipe to be made.</p>
+		</div>
 		</a>
-		{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
-	</div>
+
+	</div> -->
 
 	<!-- Secondary Projects -->
 	<div id="secondary-projects">
@@ -117,7 +122,7 @@
 	<!-- Photography Banner -->
 	<div id="photography-section">
 		<a href="/photography">
-		<div class="photography-block" style="background-image: url({{site.baseurl}}/assets/photography/rainbow-breakfast.jpg);background-size: cover;">
+		<div class="photography-block" style="background-image: url(/assets/photography/rainbow-breakfast.jpg);background-size: cover;">
 			<div class="project-name">
 				<div class="badge">
 					<span>Photography</span>
@@ -129,12 +134,6 @@
 	</div>
 
 </div>
-
-<!--build:js js/main.min.js -->
-<!-- <script src="js/lib/a-library.js"></script>
-<script src="js/lib/another-library.js"></script>
-<script src="js/main.js"></script> -->
-<!-- endbuild -->
 
 </div>
 

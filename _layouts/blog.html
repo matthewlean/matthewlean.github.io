@@ -3,14 +3,15 @@
 {% include head.html %}
 <body>
 <div class="page-wrapper">
+  
 {% include header-main.html %}
 
 <div class="site-container m-top-minus-150">
   <div class="primary">
-  	<div class="main-title">
+  	<!-- <div class="main-title">
   		<h3>Projects</h3>
   		<p>Website Design</p>
-  	</div>
+  	</div> -->
   	<div class="projects">
 			{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %} {% assign count = count | plus:1 %}
 			<div class="project">

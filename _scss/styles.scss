@@ -15,62 +15,10 @@ html, body{
 .fa{
       font-size: medium;
 }
-p {
-    color: #737f8d;
-    font-family: $font-primary;
-    letter-spacing: .01em;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.95rem;
-    line-height: 1.7;
-    margin: 0 auto
-}
-h1 {
-    font-family: $font-primary;
-    font-size: 1.5rem;
-    line-height: 1.15;
-    font-weight: 600;
-    color: #333333;
-    margin: 0 auto;
-}
-h2 {
-    font-family: $font-primary;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin: 0 auto;
-    color: #333333;
-}
-h3 {
-  font-family: $font-primary;
-  font-size: 1.2rem;
-  line-height: 1.15;
-  font-weight: 600;
-  color: #333333;
-  margin: 0 auto;
-}
-h4 {
-  font-family: $font-primary;
-  font-size: 1rem;
-  line-height: 1.15;
-  font-weight: 600;
-  color: #036aed;
-  margin: 0 auto;
-}
-a{
- color:$blue;
-}
-p a:link, p a:visited{
- border-bottom: 2px solid #0f6aea;
- transition: 0.3s ease;
-}
-p a:link:hover,p a:visited:hover{
- border-bottom: 2px solid #000;
- color: #000;
- transition: 0.3s ease;
-}
 
 // Helpers // ----------------------------------
 .m-top-minus-150{margin-top: -150px!important;}
+.m-top-minus-425{margin-top: -425px!important;}
 .page-wrapper{min-height: calc(100vh - 50px);}
 
 // Bulma // ----------------------------------
@@ -119,6 +67,18 @@ p a:link:hover,p a:visited:hover{
     line-height: 1.15;
     font-family: monospace,sans-serif;
 }
+.main-project-name{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    // transform: translateY(-50%);
+    line-height: 1.15;
+    font-family: monospace, sans-serif;
+    padding: 0px 10px;
+}
 .project-description {
     font-family: $font-primary,sans-serif;
     font-weight: 400;
@@ -127,6 +87,10 @@ p a:link:hover,p a:visited:hover{
     margin-top: 10px;
     font-weight: 400;
     color: #2e3333;
+}
+.category{
+  font-size: 1.5em;
+
 }
 .projects {
   display: -webkit-box;
@@ -247,6 +211,20 @@ a.image{
   flex-direction: column;
   justify-content: center;
 }
+.columns.is-variable .column {
+    padding-left: var(--columnGap);
+    padding-right: var(--columnGap);
+}
+.columns.is-variable.is-1 {
+    --columnGap: 0.25rem;
+}
+.columns.is-variable {
+    --columnGap: 0.75rem;
+    margin-left: -webkit-calc(-1 * var(--columnGap));
+    margin-left: calc(-1 * var(--columnGap));
+    margin-right: -webkit-calc(-1 * var(--columnGap));
+    margin-right: calc(-1 * var(--columnGap));
+}
 
 .primary .links {
     margin: 0;
@@ -270,7 +248,6 @@ a.image{
   padding-bottom: 0;
 }
 
-
 .primary .links .columns .column {
   float: left;
   display: flex;
@@ -291,11 +268,6 @@ a.image{
   color: #fff;
   box-shadow: rgba(46, 51, 51, 0.2) 0px 5px 20px 5px;
 }
-.primary .columns .column .description a:hover{
-  background: none;
-  color: #000;
-  box-shadow: none;
-}
 
 .primary .content-wrap i {
     color: #036aed;
@@ -313,7 +285,12 @@ a.image{
     border-radius: 3px;
     box-shadow: 0px 8px 24px rgba(13,13,18,0.04);
 }
-
+.primary .columns .column .description a:hover {
+    background: 0 0;
+    color: #000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
 .content-wrap {
     position: relative;

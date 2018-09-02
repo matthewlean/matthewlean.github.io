@@ -9,9 +9,16 @@
 
   <!-- og -->
   <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
+  {% if page.category contains "subpage" %}
+  <meta property="og:image" content="{{ site.url }}/assets/site-docs/og-image.jpg" />
+  {% else %}
   <meta property="og:image" content="{{ site.url }}/assets/site-docs/{{ page.img }}" />
+  {% endif %}
+
+
   <meta property="og:site_name" content="Matthew Lean - Digital Content Creator">
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
