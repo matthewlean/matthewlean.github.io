@@ -13,9 +13,9 @@
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
   {% if page.category contains "subpage" %}
-  <meta property="og:image" content="/assets/site-brand/og-image.jpg" />
+  <meta property="og:image" content="{{ site.url }}/assets/site-brand/og-image.jpg" />
   {% else %}
-  <meta property="og:image" content="/assets/site-docs/{{ page.img }}" />
+  <meta property="og:image" content="{{ site.url }}/assets/site-docs/{{ page.img }}" />
   {% endif %}
 
 
