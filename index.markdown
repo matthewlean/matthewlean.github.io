@@ -1,13 +1,13 @@
 ---
 layout: default-home
-title:  "Home"
+title:  "Matthew Lean - Digital Content Creator"
 date:  2017-03-11
 category: post main website subpage
 category-type: Website
 img: wecook-trailer.jpg
 video: wecook.mp4
 author: matthew_lean
-description: homepage description
+description: Freelance digital content creator based in Bournemouth. I create custom wordpress themes, provide logo designs, photography and brand graphics for web with minimal modern design. 
 # Extras.
 color-1: 00d0ff
 color-2: 036aed
