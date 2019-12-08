@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  <div class="page-wrapper">
+
+  {% include header-main.html %}
+
+  <div class="post">
+    {{ content }}
+  </div>
+
+  <!--build:js js/main.min.js -->
+  <script src="js/lib/a-library.js"></script>
+  <script src="js/lib/another-library.js"></script>
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+
+  </div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

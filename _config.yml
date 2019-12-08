@@ -1,0 +1,16 @@
+# Jekyll Portfolio
+
+name: Matthew Lean
+email: mttlean@gmail.com
+title: Matthew Lean - Digital Content Creator
+description: Freelance digital content creator based in Bournemouth. I create custom wordpress themes, provide logo designs, creative vision and brand graphics for web with minimal modern design.
+logo: /assets/site-brand/matthew-lean.jpg
+
+
+
+highlighter: rouge
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+destination: ./_site
+sass:
+  sass_dir: ./_scss
+  style: compressed

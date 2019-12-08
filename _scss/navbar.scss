@@ -1,0 +1,62 @@
+// Copyright 2017 Matthew Lean
+
+// Navbar // ----------------------------------
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: inherit;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 70px;
+    display: flex;
+    float: left;
+}
+.navbar ul li a  {
+    font-family: $font-primary;
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    opacity: .8;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px 28px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    opacity: 1;
+}
+.navlogo {
+  margin: 0;
+  float: left;
+  height:50px;
+  padding: 0 30px 0 30px;
+}
+.navbar ul a:link {
+  display: block;
+}
+.banner {
+    position: relative;
+    height: 200px;
+    background: linear-gradient(270deg, #00d0ff, #036aed);
+}
+.banner-s {
+    position: relative;
+    background: linear-gradient(270deg, #00d0ff, #036aed);
+}
+.banner svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4vw!important;
+}
+/*Medium Screen */
+@media (max-width: 1021px) {
+.sub-nav{
+  display: none;
+}
+}

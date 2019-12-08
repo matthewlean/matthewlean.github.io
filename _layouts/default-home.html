@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	<div class="page-wrapper">
+
+		{% include header-alt.html %}
+
+		{% include main-banner.html %}
+
+		<div class="site-container">
+			<div class="row py-3">
+				<div class="col-md-12">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tempore repudiandae pariatur
+						nostrum dolores porro fuga, nemo iusto magni harum amet facere aut ad corrupti nesciunt
+						laboriosam vitae odit eos.</p>
+				</div>
+			</div>
+		</div>
+
+			<div class="main-title">
+		<h3>Projects</h3>
+		<p>Website Design</p>
+	</div> 
+
+			<!-- Main Project -->
+			<!-- <div id="main-project">
+
+		<a href="/weCook/">
+		<div class="project-image" style="background-image: url(/assets/site-post/wecook-trailer.jpg);background-size: cover;">
+			<div style="background-image: linear-gradient(to bottom right, #00d0ff, #0e6aed);" class="project-image-gradient"></div>
+			<div class="project-name">
+				<div class="badge">
+					<span>Recent Project</span>
+				</div>
+				weCook - Graduate Project
+			</div>
+		</div>
+
+
+		<div class="project-description">
+			<h3 class="category">weCook - Graduate Project</h3>
+			<p class="date">11 March 2017</p>
+			<p class="description">weCook is a social recipe website, designed to make it easy to follow and edit recipes. Recipes added to the site are open to editing by all users, allowing for multiple versions of the recipe to be made.</p>
+		</div>
+		</a>
+
+	</div>
+
+			<!-- Secondary Projects -->
+			<div id="secondary-projects">
+				<div class="projects">
+					{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "featured" %}
+					{% assign count = count | plus:1 %}
+					<div class="project">
+						<a href="{{ post.url }}">
+							<div class="project-image"
+								style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+								<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
+									class="project-image-gradient"></div>
+								<div class="project-name">
+									<!-- <div class="badge">
+							<span>Recent Project</span>
+						</div> -->
+									{{ post.title | escape }}</div>
+							</div>
+							<div class="project-description">
+								<h3 class="category">{{ post.title | escape }}</h3>
+								<p class="date">{{ post.date | date_to_long_string }}</p>
+								<p class="description">{{ post.description | escape }}</p>
+							</div>
+						</a>
+					</div>
+					{% if count == 3 %}{% break %} {% endif %} {% endif %} {% endfor %}
+				</div>
+			</div>
+
+			<!-- Photography Banner -->
+			<div id="photography-section">
+				<a href="/photography">
+					<div class="photography-block"
+						style="background-image: url(/assets/photography/rainbow-breakfast.jpg);background-size: cover;">
+						<div class="project-name">
+							<div class="badge">
+								<span>Photography</span>
+							</div>
+							2017
+						</div>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+	</div>
+
+	{% include footer.html %}
+
+</body>
+
+</html>

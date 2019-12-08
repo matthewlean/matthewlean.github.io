@@ -1,0 +1,37 @@
+---
+layout: default-post
+title:  "weCook - Graduate Project"
+date:  2017-03-11
+category: jekyll post main website
+category-type: Website
+img: wecook-trailer.jpg
+video: wecook.mp4
+author: matthew_lean
+description: weCook is a social recipe website, designed to make it easy to follow and edit recipes. Recipes added to the site are open to editing by all users, allowing for multiple versions of the recipe to be made.
+# Extras.
+color-1: 00d0ff
+color-2: 0e6aed
+comments: true
+published: true
+permalink: /weCook/
+---
+
+<!-- <iframe src="https://player.vimeo.com/video/215204627" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/weCook-logo.png" class="img" style="margin:0 auto; width:50%;" alt="weCook logo"><img src="{{ site.url }}/assets/site-post/weCook-logo.png"></div>
+
+weCook was a [cakePhp](https://cakephp.org/) project I worked on for my Graduate Project. I created a social recipe website which allowed users to add recipes and edit other users recipes in an attempt to create new and exciting alternatives to users recipes and promote creativity through social interaction.
+
+<iframe src="https://player.vimeo.com/video/215204627?color=0e6aed&title=0&byline=0&portrait=0" width="100%" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[weCook Design Trailer](https://vimeo.com/215204627) from
+[Matthew Lean](https://vimeo.com/matthewlean)
+
+
+weCook Style Guidelines
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-brand-styleguide.jpg" class="img" alt="weCook style brand guideline"><img src="{{ site.url }}/assets/site-post/wecook-brand-styleguide.jpg"></div>
+
+weCook Register Page
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-register-page.jpg" class="img" alt="weCook register page"><img src="{{ site.url }}/assets/site-post/wecook-register-page.jpg"></div>
+
+weCook Profile Page
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-profile-page.jpg" class="img" alt="weCook profile page"><img src="{{ site.url }}/assets/site-post/wecook-profile-page.jpg"></div>
