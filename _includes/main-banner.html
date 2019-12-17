@@ -1,4 +1,4 @@
-<div class="splash-full" id="hero-header" style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative;">
+<div class="splash" id="hero-header" style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative;">
 
 {% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %} {% assign count = count | plus:1 %}
 <a href="{{ post.url }}">

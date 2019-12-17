@@ -16,14 +16,16 @@ html, body{
       font-size: medium;
 }
 
+a{
+  text-decoration: none!important;
+}
+
 // Helpers // ----------------------------------
 .m-top-minus-150{margin-top: -150px!important;}
 .m-top-minus-425{margin-top: -425px!important;}
 .page-wrapper{min-height: calc(100vh - 50px);}
 
 // Bulma // ----------------------------------
-// projects
-#main-project, #secondary-projects{margin: 1em 0;}
 #main-project .project-image{height: 300px;}
 #main-project .project-name{font-size: 2.5em;}
 
@@ -65,7 +67,7 @@ html, body{
     transform: translateY(-50%);
     padding: 0 10px;
     line-height: 1.15;
-    font-family: $monospace;
+    font-family: $font-primary;
 }
 .main-project-name{
     font-size: 2.5em;
@@ -76,7 +78,7 @@ html, body{
     top: 50%;
     // transform: translateY(-50%);
     line-height: 1.15;
-    font-family: $monospace;
+    font-family: $font-primary;
     padding: 0px 10px;
 }
 .project-description {
@@ -87,6 +89,7 @@ html, body{
     margin-top: 10px;
     font-weight: 400;
     color: #2e3333;
+    padding: 1em 1.25em;
 }
 .category{
   font-size: 1.5em;
@@ -103,10 +106,11 @@ html, body{
   justify-content: space-between;
 }
 .project {
-  width: calc(33% - 0.5em);
-  display: block;
-  position: relative;
-  margin-bottom: 1em;
+background-color:#f5f5fa;
+height: 100%;
+}
+.projects .col-lg-4{
+  margin-bottom:2em;
 }
 
 .badge span{

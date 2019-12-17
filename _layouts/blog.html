@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+
 <body>
-<div class="page-wrapper">
-  
-{% include header-main.html %}
+	<div class="page-wrapper">
 
-<div class="site-container m-top-minus-150">
-  <div class="primary">
-  	<div class="projects">
-			{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %} {% assign count = count | plus:1 %}
-			<div class="project">
-				<a href="{{ post.url }}">
-				<div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
-					<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});" class="project-image-gradient"></div>
-					<div class="project-name">
-						{{ post.title | escape }}</div>
+		{% include header-main.html %}
+
+		<div class="site-container m-top-minus-150">
+			<div class="primary">
+				<div class="projects row">
+					{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %}
+					{% assign count = count | plus:1 %}
+					<div class="col-lg-4 col-md-12">
+						<div class="project">
+							<a href="{{ post.url }}">
+								<div class="project-image"
+									style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+									<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
+										class="project-image-gradient"></div>
+									<div class="project-name">
+										{{ post.title | escape }}</div>
+								</div>
+								<div class="project-description">
+									<!-- <h3 class="category">{{ post.title | escape }}</h3> -->
+									<p class="date">{{ post.date | date_to_long_string }}</p>
+									<p class="description">{{ post.description | escape }}</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					{% if count == 15 %}{% break %} {% endif %} {% endif %} {% endfor %}
 				</div>
-				<div class="project-description">
-					<h3 class="category">{{ post.title | escape }}</h3>
-					<p class="date">{{ post.date | date_to_long_string }}</p>
-					<p class="description">{{ post.description | escape }}</p>
-				</div>
-				</a>
 			</div>
-			{% if count == 15 %}{% break %} {% endif %} {% endif %} {% endfor %}
 		</div>
-  </div>
-</div>
 
-</div>
-{% include footer.html %}
+	</div>
+	{% include footer.html %}
 
 </body>
 
