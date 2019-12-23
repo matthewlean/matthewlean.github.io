@@ -1,16 +1,36 @@
 //Font
-$font-primary: "Poppins", -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
+$font-primary: "Lexend Deca", -apple-system, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $monospace: 'Ubuntu Mono', monospace, sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 
 // Colours
-$blue: rgb(15,106,234);
-$red: rgb(255,58,47);
-$yellow: rgb(254,203,22);
-$green: rgb(41,203,113);
-$light-grey: rgb(236,238,241); // background grey
-$dark-grey : rgb(46,51,51); // default font colour
+
+
+$white: #fff;
+$light-grey: #eceef1; // background grey
+$light-light-grey-blue: #f8faff;
+$light-grey-blue: #eef2f9;
+$dark-grey: #333333; // default font colour
+$primary: #2279dc;
+$primary-lighter: #90bdff;
+$primary-lighter-lighter: #deebfe;
+$primary-dark-shade: #005ec8;
+$primary-darker-shade: darken($primary-dark-shade, 10%); // Categories
+$green: #5cc112;
+$green-lighter: #d6efc4;
+$yellow: #FFCC00;
+$yellow-lighter: #f7ecbf;
+$yellow-darnker: #ffc800;
+$red: #ff5e5e;
+$red-lighter: #ffd7d7;
+$blue: #0f6aea;
+$blue-lighter: #4d95fb;
+$pink: #ff6cf3;
+$pink-lighter: #ffdafc;
+$grey: #333333;
+$grey-lighter: #cccccc;
 
 // Font-sizes
 $font-size-large: 48px  ;
@@ -29,7 +49,7 @@ p {
     letter-spacing: .01em;
     font-weight: 400;
     font-style: normal;
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1.7;
     margin: 0 auto
 }

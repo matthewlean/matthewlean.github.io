@@ -10,15 +10,59 @@
 
 		{% include main-banner.html %}
 
+		<div class="jumbotron jumbotron-fluid bg-light intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2">
+						<img id="avatar"
+							src="/assets/site-brand/matthew-lean.jpg">
+					</div>
+					<div class="col-md-10 py-2">
+						<h1>Matthew Lean</h1>
+						<h2>Digital Designer</h2>
+						<p>Feel free to check out <a class="bio" href="/assets/site-docs/portfolio.pdf">my portfolio</a>
+							for all my recent projects and graphics work. Extra info and writeup can be found on
+							<a class="bio" href="/blog/">my blog</a>
+							and please <a class="bio" href="mailto:mttlean@gmail.com">contact</a> me if you have any
+							questions. </p>
+						<div class="social-icons">
+							<ul>
+								<li class="twitter">
+									<a href="https://twitter.com/dizzyup" target="_blank">
+										<i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="instagram">
+									<a href="https://instagram.com/dizzyup" target="_blank">
+										<i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li class="dribbble">
+									<a href="https://dribbble.com/dizzyup" target="_blank">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+								<li class="github">
+									<a href="https://github.com/dizzyup" target="_blank">
+										<picture>
+											<source
+												srcset="https://d33wubrfki0l68.cloudfront.net/c36ad09b495e4752c16e816cadca779ffa9f5983/6ae29/assets/images/github-alt.svg"
+												media="(prefers-color-scheme: dark)" width="26" height="26">
+												<i class="fab fa-github"></i>
+										</picture>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
 		<div class="container">
 
-			<div class="row">
-				<div class="col-md-12 py-2">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum tempore repudiandae pariatur
-						nostrum dolores porro fuga, nemo iusto magni harum amet facere aut ad corrupti nesciunt
-						laboriosam vitae odit eos.</p>
-				</div>
-			</div>
+
 
 			<!-- Secondary Projects -->
 			<div class="row">
@@ -33,7 +77,7 @@
 				<div class="projects">
 					{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "featured" %}
 					{% assign count = count | plus:1 %}
-					<div class="col-lg-4 col-md-12 project">
+					<div class="col-lg-4 col-md-12 ">
 						<a href="{{ post.url }}">
 							<div class="project-image"
 								style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
@@ -52,13 +96,14 @@
 					{% if count == 3 %}{% break %} {% endif %} {% endif %} {% endfor %}
 				</div>
 			</div>
+		</div>
 
-
+		<div class="jumbotron jumbotron-fluid py-0 mb-0">
 			<!-- Photography Banner -->
 			<div id="photography-section">
 				<a href="/photography">
 					<div class="photography-block"
-						style="background-image: url(/assets/photography/rainbow-breakfast.jpg);background-size: cover;">
+						style="background-image: url(https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&);background-size: cover;">
 						<div class="project-name">
 							<div class="badge">
 								<span>Photography</span>
@@ -68,7 +113,22 @@
 					</div>
 				</a>
 			</div>
-
+		</div>
+		<div class="jumbotron jumbotron-fluid py-0 mb-0">
+			<!-- Photography Banner -->
+			<div id="photography-section">
+				<a href="/photography">
+					<div class="photography-block"
+						style="background-image: url(https://images.unsplash.com/photo-1437422061949-f6efbde0a471?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);background-size: cover;">
+						<div class="project-name">
+							<div class="badge">
+								<span>Photography</span>
+							</div>
+							2018
+						</div>
+					</div>
+				</a>
+			</div>
 		</div>
 
 	</div>

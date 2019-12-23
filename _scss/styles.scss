@@ -19,6 +19,9 @@ html, body{
 a{
   text-decoration: none!important;
 }
+a:hover{
+color:#3187ff
+}
 
 // Helpers // ----------------------------------
 .m-top-minus-150{margin-top: -150px!important;}
@@ -28,6 +31,46 @@ a{
 // Bulma // ----------------------------------
 #main-project .project-image{height: 300px;}
 #main-project .project-name{font-size: 2.5em;}
+
+// Home // ----------------------------------
+.intro h1{
+  font-size:2rem;
+}
+.intro h2{
+  color: $blue-lighter;
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+.intro img#avatar {
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  max-width: 150px;
+}
+.social-icons ul{
+  display: flex;
+    flex-wrap: wrap;
+}
+.social-icons ul li{
+  margin: 10px;
+}
+
+.social-icons ul li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  transition: background ease-in-out .2s,box-shadow ease-in-out .2s;
+}
+.social-icons ul li.twitter a {
+  box-shadow: 0 0 0 1px rgba(0,145,255,.2);
+}
+.social-icons ul li.twitter a:hover {
+  background: rgba(0,145,255,.1);
+}
 
 
 #hero-header p{
@@ -89,7 +132,7 @@ a{
     margin-top: 10px;
     font-weight: 400;
     color: #2e3333;
-    padding: 1em 1.25em;
+    padding: 1em 1.25em 2.25em;
 }
 .category{
   font-size: 1.5em;
@@ -107,7 +150,6 @@ a{
 }
 .project {
 background-color:#f5f5fa;
-height: 100%;
 }
 .projects .col-lg-4{
   margin-bottom:2em;
