@@ -14,8 +14,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-2">
-						<img id="avatar"
-							src="/assets/site-brand/matthew-lean.jpg">
+						<img id="avatar" src="/assets/site-brand/matthew-lean.jpg">
 					</div>
 					<div class="col-md-10 py-2">
 						<h1>Matthew Lean</h1>
@@ -27,29 +26,29 @@
 							questions. </p>
 						<div class="social-icons">
 							<ul>
-								<li class="twitter">
-									<a href="https://twitter.com/dizzyup" target="_blank">
-										<i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
-									</a>
-								</li>
 								<li class="instagram">
-									<a href="https://instagram.com/dizzyup" target="_blank">
-										<i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+									<a href="#" target="_blank">
+										<i class="fab fa-2x fa-instagram"></i>
 									</a>
 								</li>
 								<li class="dribbble">
-									<a href="https://dribbble.com/dizzyup" target="_blank">
-										<i class="fab fa-linkedin-in"></i>
+									<a href="">
+										<i class="fab fa-2x fa-dribbble"></i>
+									</a>
+								</li>
+								<li class="linkedin">
+									<a href="#" target="_blank">
+										<i class="fab fa-2x fa-linkedin-in"></i>
 									</a>
 								</li>
 								<li class="github">
-									<a href="https://github.com/dizzyup" target="_blank">
-										<picture>
-											<source
-												srcset="https://d33wubrfki0l68.cloudfront.net/c36ad09b495e4752c16e816cadca779ffa9f5983/6ae29/assets/images/github-alt.svg"
-												media="(prefers-color-scheme: dark)" width="26" height="26">
-												<i class="fab fa-github"></i>
-										</picture>
+									<a href="#" target="_blank">
+										<i class="fab fa-2x fa-github"></i>
+									</a>
+								</li>
+								<li class="twitter">
+									<a href="#" target="_blank">
+										<i class="fab fa-2x fa-twitter" aria-hidden="true"></i>
 									</a>
 								</li>
 							</ul>
@@ -83,14 +82,18 @@
 								style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
 								<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
 									class="project-image-gradient"></div>
+
 								<div class="project-name">
-									{{ post.title | escape }}</div>
+									{{ post.title | escape }}
+									<div class="badge mt-2">
+										<span style="background-color: #{{post.color-1}};">{{ post.date | date_to_long_string }}</span>
+									</div>
+								</div>
 							</div>
-							<div class="project-description">
-								<!-- <h3 class="category">{{ post.title | escape }}</h3> -->
+							<!-- <div class="project-description">
 								<p class="date">{{ post.date | date_to_long_string }}</p>
 								<p class="description">{{ post.description | escape }}</p>
-							</div>
+							</div> -->
 						</a>
 					</div>
 					{% if count == 3 %}{% break %} {% endif %} {% endif %} {% endfor %}
