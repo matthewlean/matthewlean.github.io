@@ -86,7 +86,8 @@
 								<div class="project-name">
 									{{ post.title | escape }}
 									<div class="badge mt-2">
-										<span style="background-color: #{{post.color-1}};">{{ post.date | date_to_long_string }}</span>
+										<span
+											style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
 									</div>
 								</div>
 							</div>
@@ -101,8 +102,36 @@
 			</div>
 		</div>
 
+		<div class="jumbotron jumbotron-fluid bg-light py-0 mb-0">
+			<div class="slider">
+				<img src="https://via.placeholder.com/500x500" />
+				<img src="https://via.placeholder.com/500x500" />
+				<img src="https://via.placeholder.com/500x500" />
+				<img src="https://via.placeholder.com/500x500" />
+				<img src="https://via.placeholder.com/500x500" />
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function ($) {
+				$('.slider').slick({
+					speed: 5000,
+					autoplay: true,
+					autoplaySpeed: 0,
+					centerMode: true,
+					cssEase: 'linear',
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					variableWidth: true,
+					infinite: true,
+					initialSlide: 1,
+					arrows: false,
+					buttons: false
+				});
+			});
+		</script>
+
 		<div class="jumbotron jumbotron-fluid py-0 mb-0">
-			<!-- Photography Banner -->
 			<div id="photography-section">
 				<a href="/photography">
 					<div class="photography-block"
@@ -117,8 +146,8 @@
 				</a>
 			</div>
 		</div>
+
 		<div class="jumbotron jumbotron-fluid py-0 mb-0">
-			<!-- Photography Banner -->
 			<div id="photography-section">
 				<a href="/photography">
 					<div class="photography-block"
@@ -139,6 +168,7 @@
 	</div>
 
 	{% include footer.html %}
+
 
 </body>
 
