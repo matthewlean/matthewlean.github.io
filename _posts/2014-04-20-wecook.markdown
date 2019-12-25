@@ -2,7 +2,7 @@
 layout: default-post
 title:  "weCook - Graduate Project"
 date:  2017-03-11
-category: jekyll post main website
+category: jekyll post main website featured
 category-type: Website
 img: wecook-trailer.jpg
 video: wecook.mp4

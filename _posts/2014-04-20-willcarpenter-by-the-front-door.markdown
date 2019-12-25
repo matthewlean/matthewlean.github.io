@@ -2,7 +2,7 @@
 layout: default-post
 title:  "By The Front Door - Lyric Video Motion Graphic Design"
 date:  2017-04-20
-category: jekyll post video graphic featured
+category: jekyll post video graphic
 category-type: graphics
 img: 20171103-By-The-Front-Door-thumb.jpg
 author: matthew_lean
