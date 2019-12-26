@@ -22,22 +22,16 @@
     display: block;
     color: #fff;
     opacity: .8;
-    font-weight: 600;
+    font-weight: 300;
     text-align: center;
-    padding: 25px 28px;
+    padding: 25px 20px;
     text-decoration: none;
 }
 .navbar ul li a:hover{
     opacity: 1;
 }
 .navlogo {
-  margin: 0;
-  float: left;
-  height:50px;
-  padding: 0 30px 0 30px;
-}
-.navbar ul a:link {
-  display: block;
+  width:35px;
 }
 .banner {
     position: relative;
@@ -59,4 +53,39 @@
 .sub-nav{
   display: none;
 }
+}
+
+
+.newnavbar{
+  position: fixed;
+    z-index: 100;
+    width: 100%;
+    transition: ease all .4s;
+}
+
+.solidnav{
+  position: fixed;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 8px 24px rgba(13, 13, 18, 0.04);
+  transition: ease all .4s;
+}
+
+.solidnav .navlogo path{
+  fill:#036aed;
+}
+.solidnav ul li a{
+  color:#c1bebe;
+}
+.solidnav ul li a:hover{
+  color:#007bff;
+}
+
+.icon-bar {
+  width: 27px;
+  height: 3px;
+  background-color: #ffffff;
+  display: block;
+  transition: all 0.2s;
+  margin-top: 4px;
 }

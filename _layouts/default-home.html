@@ -6,7 +6,7 @@
 	<div class="page-wrapper">
 
 
-		{% include header-alt.html %}
+		{% include header-main.html %}
 
 		{% include main-banner.html %}
 
@@ -74,7 +74,7 @@
 				<div class="project">
 					<a href="{{ post.url }}">
 						<div class="project-image"
-							style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
+							style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
 							<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
 								class="project-image-gradient"></div>
 
@@ -94,7 +94,7 @@
 		<script type="text/javascript">
 			$(document).ready(function ($) {
 				$('.slider').slick({
-					speed: 5000,
+					speed: 6000,
 					autoplay: true,
 					autoplaySpeed: 0,
 					centerMode: true,
@@ -103,9 +103,10 @@
 					slidesToScroll: 1,
 					variableWidth: true,
 					infinite: true,
-					initialSlide: 1,
+					initialSlide: 0,
 					arrows: false,
 					buttons: true,
+					pauseOnHover: false,
 				});
 			});
 		</script>

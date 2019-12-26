@@ -7,7 +7,7 @@
 
 		{% include header-main.html %}
 
-		<div class="site-container m-top-minus-150">
+		<div class="container">
 			<div class="primary">
 				<div class="projects row">
 					{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %}
@@ -21,9 +21,12 @@
 										class="project-image-gradient"></div>
 									<div class="project-name">
 										{{ post.title | escape }}</div>
+									<div class="badge mt-2">
+										<span
+											style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
+									</div>
 								</div>
 								<div class="project-description">
-									<!-- <h3 class="category">{{ post.title | escape }}</h3> -->
 									<p class="date">{{ post.date | date_to_long_string }}</p>
 									<p class="description">{{ post.description | escape }}</p>
 								</div>
