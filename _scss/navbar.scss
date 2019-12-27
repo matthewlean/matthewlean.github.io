@@ -7,63 +7,71 @@
   width: 100%;
   background-color: inherit;
 }
+
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    height: 70px;
-    display: flex;
-    float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 70px;
+  display: flex;
+  float: left;
 }
-.navbar ul li a  {
-    font-family: $font-primary;
-    font-size: 14px;
-    display: block;
-    color: #fff;
-    opacity: .8;
-    font-weight: 300;
-    text-align: center;
-    padding: 25px 20px;
-    text-decoration: none;
+
+.navbar ul li a {
+  font-family: $font-primary;
+  font-size: 14px;
+  display: block;
+  color: #fff;
+  opacity: .8;
+  font-weight: 300;
+  text-align: center;
+  padding: 25px 20px;
+  text-decoration: none;
 }
-.navbar ul li a:hover{
-    opacity: 1;
+
+.navbar ul li a:hover {
+  opacity: 1;
 }
+
 .navlogo {
-  width:35px;
+  width: 35px;
 }
+
 .banner {
-    position: relative;
-    height: 200px;
-    background: linear-gradient(270deg, #00d0ff, #036aed);
+  position: relative;
+  height: 200px;
+  background: linear-gradient(270deg, #00d0ff, #036aed);
 }
+
 .banner-s {
-    position: relative;
-    background: linear-gradient(270deg, #00d0ff, #036aed);
+  position: relative;
+  background: linear-gradient(270deg, #00d0ff, #036aed);
 }
+
 .banner svg {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 4vw!important;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4vw !important;
 }
+
 /*Medium Screen */
 @media (max-width: 1021px) {
-.sub-nav{
-  display: none;
-}
+  .sub-nav {
+    display: none;
+  }
 }
 
 
-.newnavbar{
+.newnavbar {
   position: fixed;
-    z-index: 100;
-    width: 100%;
-    transition: ease all .4s;
+  z-index: 100;
+  width: 100%;
+  transition: ease all .4s;
 }
 
-.solidnav{
+.solidnav {
   position: fixed;
   z-index: 100;
   background-color: #fff;
@@ -71,21 +79,54 @@
   transition: ease all .4s;
 }
 
-.solidnav .navlogo path{
-  fill:#036aed;
+.solidnav .navlogo path {
+  fill: #036aed;
 }
-.solidnav ul li a{
-  color:#c1bebe;
+
+.solidnav ul li a {
+  color: #c1bebe;
 }
-.solidnav ul li a:hover{
-  color:#007bff;
+
+.solidnav ul li a:hover {
+  color: #007bff;
 }
 
 .icon-bar {
-  width: 27px;
-  height: 3px;
-  background-color: #ffffff;
+  width: 22px;
+  height: 2px;
+  background-color: #fff;
   display: block;
   transition: all 0.2s;
-  margin-top: 4px;
+  margin-top: 4px
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
