@@ -35,18 +35,19 @@
     </div>
 
     <div class="site-container">
-			{{ content }}
-</div>
+      {{ content }}
+    </div>
 
-    <div class="site-container">
+    <div class="container">
 
       <!-- Main Project -->
       <div id="photography">
 
         {% for image in site.static_files %}
         {% if image.path contains 'photography' %}
-        <div href="#" data-featherlight="{{ site.baseurl }}{{ image.path }}" class="img"><img
-            src="{{ site.baseurl }}{{ image.path }}"></img></div>
+        <div href="#" data-featherlight="{{ site.baseurl }}{{ image.path }}" class="col-md-4 img">
+          <img src="{{ site.baseurl }}{{ image.path }}">
+        </div>
         {% endif %}
         {% endfor %}
 

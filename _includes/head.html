@@ -21,20 +21,21 @@
 
   <meta property="og:site_name" content="Matthew Lean - Digital Content Creator">
   <meta property="article:published_time" content="{{ page.date }}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description"
+    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
   <!-- Extras -->
   <script src="https://kit.fontawesome.com/06913a25e7.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
   <!-- Slick Slider -->
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
 
   <!-- Tilt Js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.babel.min.js"></script>
@@ -44,23 +45,27 @@
   <link rel="stylesheet" href="/css/main.css">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/site-brand/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/site-brand/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/site-brand/favicon-16x16.png">
-  <link rel="manifest" href="/assets/site-brand/manifest.json">
-  <link rel="mask-icon" href="/assets/site-brand/safari-pinned-tab.svg" color="#006aee">
-  <link rel="shortcut icon" href="/assets/site-brand/favicon.ico">
-  <meta name="msapplication-config" content="/assets/site-brand/browserconfig.xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/site-brand/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/site-brand/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/site-brand/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.url }}/assets/site-brand/manifest.json">
+  <link rel="mask-icon" href="{{ site.url }}/assets/site-brand/safari-pinned-tab.svg" color="#006aee">
+  <link rel="shortcut icon" href="{{ site.url }}/assets/site-brand/favicon.ico">
+  <meta name="msapplication-config" content="{{ site.url }}/assets/site-brand/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Featherlight -->
-  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css"
+    rel="stylesheet" />
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72807916-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-72807916-1');
