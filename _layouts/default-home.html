@@ -110,11 +110,11 @@
 			});
 		</script>
 
-		<div class="js-parallax parallax">
+		<div class="js-parallax parallax content-centered">
 			<img src="https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&"
 				alt="">
 			<a href="/photography">
-				<div class="parallax__content">
+				<div class="parallax__content ">
 					<div class="project-name">
 						<div class="badge">
 							<span>Photography</span>
@@ -135,13 +135,13 @@
 
 			$('.js-parallax').each(function () {
 				var tween = TweenMax.to('.js-parallax img', .3, {
-					y: '-30%',
+					y: '-60%',
 					ease: Linear.easeNone,
 				});
 
 				var scene = new ScrollMagic.Scene({
 						triggerElement: $(this),
-						duration: '200%',
+						duration: '600%',
 						triggerHook: 1
 					})
 					.setTween(tween)
