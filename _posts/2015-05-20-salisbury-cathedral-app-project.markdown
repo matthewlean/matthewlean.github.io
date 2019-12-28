@@ -2,7 +2,7 @@
 layout: default-post
 title: "Salisbury Cathedral - Uni App Project"
 date:  2015-05-20
-category: jekyll post graphic app
+category: jekyll post graphics app 
 category-type: graphic
 img: 20150520-salisbury-cathedral-app-project-thumb.jpg
 author: matthew_lean

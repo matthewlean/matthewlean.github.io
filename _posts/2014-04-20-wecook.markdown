@@ -11,7 +11,7 @@ description: weCook is a social recipe website, designed to make it easy to foll
 # Extras.
 color-1: 00d0ff
 color-2: 0e6aed
-comments: true
+comments: false
 published: true
 permalink: /weCook/
 ---

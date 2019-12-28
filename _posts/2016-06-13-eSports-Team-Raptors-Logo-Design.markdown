@@ -2,14 +2,14 @@
 layout: default-post
 title: "eSports Team Raptors – Logo Design"
 date:  2017-06-13
-category: jekyll post graphic featured
+category: jekyll post graphics featured
 category-type: graphics
 img: 20170613-eSports-Team-Raptors-thumb.jpg
 author: matthew_lean
 description: A group of my friends wanted a logo and mascot created for a team they were possibly making for an upcoming tournament and asked me if I could put something together for them.
 # Extras.
-color-1: 2ecb70
-color-2: fbea82
+color-1: 2acb72
+color-2: 028438
 comments: true
 published: true
 permalink: /eSports-raptors/

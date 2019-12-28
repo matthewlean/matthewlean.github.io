@@ -93,12 +93,12 @@
 		<script type="text/javascript">
 			$(document).ready(function ($) {
 				$('.slider').slick({
-					speed: 6000,
+					speed: 6500,
 					autoplay: true,
 					autoplaySpeed: 0,
 					centerMode: true,
 					cssEase: 'linear',
-					slidesToShow: 1,
+					slidesToShow: 3,
 					slidesToScroll: 1,
 					variableWidth: true,
 					infinite: true,
@@ -110,27 +110,60 @@
 			});
 		</script>
 
-		<div class="jumbotron jumbotron-fluid py-0 mb-0">
-			<div id="photography-section">
-				<a href="/photography">
-					<div class="photography-block"
-						style="background-image: url(https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&);background-size: cover;">
-						<div class="project-name">
-							<div class="badge">
-								<span>Photography</span>
-							</div>
-							2017
+		<div class="js-parallax parallax">
+			<img src="https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&"
+				alt="">
+			<a href="/photography">
+				<div class="parallax__content">
+					<div class="project-name">
+						<div class="badge">
+							<span>Photography</span>
 						</div>
+						2017
 					</div>
-				</a>
+				</div>
+			</a>
+		</div>
+
+		<script type="text/javascript">
+			// make a controller and add indicators to all scenes attached
+			var controller = new ScrollMagic.Controller({
+				addIndicators: true
+			});
+
+			var controller = new ScrollMagic.Controller();
+
+			$('.js-parallax').each(function () {
+				var tween = TweenMax.to('.js-parallax img', .3, {
+					y: '-30%',
+					ease: Linear.easeNone,
+				});
+
+				var scene = new ScrollMagic.Scene({
+						triggerElement: $(this),
+						duration: '200%',
+						triggerHook: 1
+					})
+					.setTween(tween)
+					.addTo(controller);
+			});
+		</script>
+
+		<div class="jumbotron jumbotron-fluid bg-light intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Test Content</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus sit, hic pariatur
+							quam natus veritatis cupiditate corrupti ipsa aspernatur ex, fugiat dolor vero consectetur
+							quo laborum debitis in sequi!</p>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
-	</div>
-
-	</div>
-
-	{% include footer.html %}
+		{% include footer.html %}
 
 
 </body>

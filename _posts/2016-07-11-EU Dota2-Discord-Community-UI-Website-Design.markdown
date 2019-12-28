@@ -2,7 +2,7 @@
 layout: default-post
 title: "EU Dota2 Discord Community - UI Website Design"
 date:  2017-07-11
-category: jekyll post graphic featured
+category: jekyll post graphics featured
 category-type: graphics
 img: 20170711-EU-Dota2-Discord-thumb.jpg
 author: matthew-lean

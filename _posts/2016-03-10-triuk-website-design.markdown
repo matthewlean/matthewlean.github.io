@@ -2,7 +2,7 @@
 layout: default-post
 title: "TriUk – Website Splashpage Redesign"
 date:  2017-05-10
-category: jekyll post website
+category: jekyll post website featured
 category-type: website
 img: 20170510-triuk-website-design-thumb.jpg
 author: matthew_lean

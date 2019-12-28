@@ -2,9 +2,9 @@
 layout: default-post
 title: "TriUk – 2016 Catalogue Print Design"
 date:  2017-03-06
-category: jekyll post graphic print featured
+category: jekyll post graphics print featured
 category-type: graphics
-img: 20170306-triuk-2016-catalogue-thumb.jpg
+img: low-poly-render.jpg
 author: matthew_lean
 description: Near to the end of last year I started with a small team, designing the TriUk 2016 catalogue. The catalogue would be an information point to be handed out at events and in store.
 # Extras.

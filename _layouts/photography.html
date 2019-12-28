@@ -8,17 +8,17 @@
     {% include header-main.html %}
 
     <div class="splash"
-      style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative; background-color: #0f6aea;">
+      style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative; background-color: #0f6aea; background-position:50% 50%;">
 
       <div class="splash-video-wrapper">
         <div
           style="background-image: linear-gradient(to bottom right, #{{ page.color-1 | escape }}, #{{ page.color-2 | escape }});"
           class="project-image-gradient"></div>
 
-        <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
-          poster="{{site.baseurl}}/assets/site-post/{{page.img}}" id="bgvid">
+        <!-- <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
+          poster="{{site.baseurl}}/{{page.img}}" id="bgvid">
           <source class="splash-video" src="{{site.baseurl}}/assets/site-video/{{page.video}}" type="video/mp4">
-        </video>
+        </video> -->
 
       </div>
 
