@@ -228,6 +228,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .post .img:hover {
@@ -568,5 +569,9 @@ height: 40vh;
 }
 .col-centered{
   float: none;
+  margin: 0 auto;
+}
+.customer-logos .slide img{
+  max-width: 150px;
   margin: 0 auto;
 }
