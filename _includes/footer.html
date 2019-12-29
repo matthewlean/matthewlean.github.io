@@ -6,7 +6,7 @@
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript"
 	charset="utf-8"></script>
 
-<footer class="bg-grey">
+<!-- <footer class="bg-grey">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -46,4 +46,102 @@
 		</div>
 	</div>
 
+</footer> -->
+
+<footer class="container-fluid footer pt-5 pb-5">
+	<div class="container">
+		<div class="row justify-content-md-center">
+			<div class="col-md-8 text-center">
+				<a href="/">
+					<svg class="navlogo footerlogo mb-2" alt="Matthew Lean M Logo" xmlns="http://www.w3.org/2000/svg"
+						baseProfile="basic" viewBox="0 0 500 500">
+						<defs />
+						<path fill="#036aed"
+							d="M251 321l103-104 3-3v254l131-24V55L357 31 250 138 142 31 11 55v389l131 24V213l109 108 92-92 14-15" />
+					</svg>
+				</a>
+				<p>
+					Design background randing from frontend web design, logo design to frontend coding & wordpress theme
+					creation. I enjoy <a href="/photography">photography</a> and post alot of food on <a
+						href="https://www.instagram.com/matthewlean/">Instagram</a>. Follow me
+					on social for my latest projects and email me if you'd like to work together.
+				</p>
+				<div class="createdAnimation">
+					<p class="mt-2 mr-2">
+						Created with
+					</p>
+					<p class="mt-2">
+						<foo>
+							<i class="fas fa-heart"></i>
+						</foo>
+						<foo>
+							<i class="fas fa-pizza-slice"></i>
+						</foo>
+						<foo>
+							<i class="fas fa-clock"></i>
+						</foo>
+					</p>
+					<p class="mt-2 ml-2">by <a href="http://matthewlean.co.uk">Matthew Lean</a>
+					</p>
+				</div>
+
+				<!-- emoji animation -->
+				<script type="text/javascript">
+					var frame = 0;
+
+					$(document).ready(function () {
+						// $("foo").hide();
+						$(":hidden").css("visibility", "visible");
+						var myVar = setInterval(animation, 5000);
+					});
+
+					function animation() {
+						if (frame < 3) {
+							frame++;
+						} else {
+							frame = 1;
+						}
+						$("foo").hide();
+						$("foo:nth-of-type(" + frame + ")").show();
+					}
+				</script>
+
+				<div class="social-icons mt-4" style="align-items: center;display: flex;justify-content: center;">
+					<ul>
+						<li class="instagram">
+							<a href="https://www.instagram.com/matthewlean/" target="_blank">
+								<i class="fab fa-2x fa-instagram"></i>
+							</a>
+						</li>
+						<li class="spotify">
+							<a href="https://open.spotify.com/user/matthewlean?si=cR-uYdWyR6G4q_haKRSsdw" target="_blank">
+								<i class="fab fa-2x fa-spotify"></i>
+							</a>
+						</li>
+						<li class="dribbble">
+							<a href="https://dribbble.com/matthewlean">
+								<i class="fab fa-2x fa-dribbble"></i>
+							</a>
+						</li>
+						<li class="linkedin">
+							<a href="https://www.linkedin.com/in/m-lean/" target="_blank">
+								<i class="fab fa-2x fa-linkedin-in"></i>
+							</a>
+						</li>
+						<li class="github">
+							<a href="https://github.com/matthewlean" target="_blank">
+								<i class="fab fa-2x fa-github"></i>
+							</a>
+						</li>
+						<li class="twitter">
+							<a href="https://twitter.com/matthewLean_" target="_blank">
+								<i class="fab fa-2x fa-twitter" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </footer>

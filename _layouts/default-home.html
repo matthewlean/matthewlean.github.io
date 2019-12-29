@@ -27,27 +27,33 @@
 						<div class="social-icons">
 							<ul>
 								<li class="instagram">
-									<a href="#" target="_blank">
+									<a href="https://www.instagram.com/matthewlean/" target="_blank">
 										<i class="fab fa-2x fa-instagram"></i>
 									</a>
 								</li>
+								<li class="spotify">
+									<a href="https://open.spotify.com/user/matthewlean?si=cR-uYdWyR6G4q_haKRSsdw"
+										target="_blank">
+										<i class="fab fa-2x fa-spotify"></i>
+									</a>
+								</li>
 								<li class="dribbble">
-									<a href="">
+									<a href="https://dribbble.com/matthewlean">
 										<i class="fab fa-2x fa-dribbble"></i>
 									</a>
 								</li>
 								<li class="linkedin">
-									<a href="#" target="_blank">
+									<a href="https://www.linkedin.com/in/m-lean/" target="_blank">
 										<i class="fab fa-2x fa-linkedin-in"></i>
 									</a>
 								</li>
 								<li class="github">
-									<a href="#" target="_blank">
+									<a href="https://github.com/matthewlean" target="_blank">
 										<i class="fab fa-2x fa-github"></i>
 									</a>
 								</li>
 								<li class="twitter">
-									<a href="#" target="_blank">
+									<a href="https://twitter.com/matthewLean_" target="_blank">
 										<i class="fab fa-2x fa-twitter" aria-hidden="true"></i>
 									</a>
 								</li>
@@ -56,12 +62,6 @@
 					</div>
 				</div>
 
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="main-title">
-				<h3>Projects</h3>
 			</div>
 		</div>
 
@@ -111,7 +111,7 @@
 		</script>
 
 		<div class="js-parallax parallax content-centered">
-			<img src="https://images.unsplash.com/photo-1433148749784-5e235e9efd12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&"
+			<img src="http://www.bellsdecor.co.uk/files/ckeditor/Decorating_Contractors_Dorset.jpg?time=1574168149471"
 				alt="">
 			<a href="/photography">
 				<div class="parallax__content ">
@@ -141,7 +141,7 @@
 
 				var scene = new ScrollMagic.Scene({
 						triggerElement: $(this),
-						duration: '600%',
+						duration: '500%',
 						triggerHook: 1
 					})
 					.setTween(tween)
@@ -152,16 +152,40 @@
 		<div class="jumbotron jumbotron-fluid bg-light intro">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<h3>Test Content</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis delectus sit, hic pariatur
-							quam natus veritatis cupiditate corrupti ipsa aspernatur ex, fugiat dolor vero consectetur
-							quo laborum debitis in sequi!</p>
+					<div class="customer-logos slider">
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500png"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
+						<div class="slide"><img src="https://via.placeholder.com/500x500"></div>
 					</div>
 				</div>
 
 			</div>
 		</div>
+
+		<script type="text/javascript">
+			$(document).ready(function ($) {
+				$('.customer-logos').slick({
+					speed: 6500,
+					autoplay: true,
+					autoplaySpeed: 0,
+					centerMode: true,
+					cssEase: 'linear',
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					variableWidth: true,
+					infinite: true,
+					initialSlide: 0,
+					arrows: false,
+					buttons: true,
+					pauseOnHover: false,
+				});
+			});
+		</script>
 
 		{% include footer.html %}
 

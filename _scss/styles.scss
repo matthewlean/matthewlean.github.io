@@ -75,6 +75,9 @@ a:hover {
   margin-right: 25px;
   margin-left: 0;
 }
+.social-icons ul li:last-child {
+  margin-right: 0px;
+}
 
 .social-icons .fa-instagram {
   color: #DD2A7B;
@@ -91,6 +94,9 @@ a:hover {
 .social-icons .fa-dribbble {
   color: #ed5490;
 }
+.social-icons .fa-spotify{
+  color:#1DB954;
+}
 
 .project {
   max-width: 340px;
@@ -98,7 +104,7 @@ a:hover {
 }
 
 .slider {
-  martin-left: -15px;
+  margin-left: -15px;
 }
 
 
@@ -559,4 +565,8 @@ height: 50vh;
 	align-content: center;
 	flex-direction: column;
 	text-align: center;
+}
+.col-centered{
+  float: none;
+  margin: 0 auto;
 }

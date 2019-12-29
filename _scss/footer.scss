@@ -3,7 +3,6 @@
 // Footer // ----------------------------------
 
 footer{
-  height: 55px;
   background-color: $white;
   width: 100%;
   margin: 20px 0 0px 0;
@@ -17,7 +16,6 @@ footer .section p{
   line-height: 50px;
 }
 footer .section-alt {
-  height: 50px;
   float: right;
 }
 footer .section-alt {
@@ -32,4 +30,22 @@ footer .section-alt {
 footer .section-alt .fa{
   color: #f2f2f2;
   margin-left: 5px;
+}
+
+pre {
+  visibility: hidden;
+}
+
+.createdAnimation{
+  display: inline-flex;
+}
+
+.createdAnimation .fa-heart{
+  color: #f9b5e9;
+}
+.createdAnimation .fa-pizza-slice{
+  color: #bf8d3c ;
+}
+.createdAnimation .fa-clock{
+  color: #4d95fb;
 }
