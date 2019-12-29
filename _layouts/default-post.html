@@ -48,34 +48,60 @@
     </div>
 
     <!-- related posts -->
-    <div class="jumbotron jumbotron-fluid bg-light intro mb-0">
-      <div class="container">
-        <h4 class="text-center mb-3" style="color: #c1bebe;">Related Posts</h4>
-        <div class="row justify-content-md-center mr-0 ml-0">
-          {% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %}
-          {% assign count = count | plus:1 %}
-          <div class="project col-md-6 pr-0 pl-0">
-            <a href="{{ post.url }}">
-              <div class="project-image" style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
-                <div
-                  style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
-                  class="project-image-gradient"></div>
+        <div class="jumbotron relatedPosts jumbotron-fluid bg-light intro mb-0">
+          <div class="container">
+            <h4 class="text-center mb-3 text-capitalize" style="color: #c1bebe;">Related {{ page.category-type }} Posts
+            </h4>
+            <div class="row justify-content-md-center mr-0 ml-0">
 
-                <div class="project-name">
-                  {{ post.title | escape }}
-                  <div class="badge mt-2">
-                    <span style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
+              {% assign maxRelated = 2 %}
+              {% assign minCommonTags =  1 %}
+              {% assign maxRelatedCounter = 0 %}
+
+              {% for post in site.posts %}
+
+              {% assign sameTagCount = 0 %}
+              {% assign commonTags = '' %}
+
+              {% for tag in post.category-type %}
+              {% if post.url != page.url %}
+              {% if page.category-type contains tag %}
+              {% assign sameTagCount = sameTagCount | plus: 1 %}
+              {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+              {% assign commonTags = commonTags | append: tagmarkup %}
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+
+              {% if sameTagCount >= minCommonTags %}
+              <div class="project col-md-6 pr-0 pl-0">
+                <a href="{{ post.url }}">
+                  <div class="project-image"
+                    style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
+                    <div
+                      style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
+                      class="project-image-gradient"></div>
+
+                    <div class="project-name">
+                      {{ post.title | escape }}
+                      <div class="badge mt-2">
+                        <span style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
+                      </div>
+                    </div>
+
                   </div>
-                </div>
-
+                </a>
               </div>
-            </a>
-          </div>
-          {% if count == 2 %}{% break %} {% endif %} {% endif %} {% endfor %}
+              {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+              {% if maxRelatedCounter >= maxRelated %}
+              {% break %}
+              {% endif %}
+              {% endif %}
+
+              {% endfor %}
         </div>
       </div>
     </div>
-
   </div>
 
   {% include footer.html %}

@@ -3,7 +3,7 @@ layout: default-post
 title: "Salisbury Cathedral - Uni App Project"
 date:  2015-05-20
 category: jekyll post graphics app 
-category-type: graphic
+category-type: graphics
 img: 20150520-salisbury-cathedral-app-project-thumb.jpg
 author: matthew_lean
 description: Puzzle App for Salisbury Cathedral to celebrate the Magna Carta exhibition
