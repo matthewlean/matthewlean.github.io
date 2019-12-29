@@ -478,9 +478,7 @@ a.image {
     width: 100%;
   }
 
-  .project:last-child {
-    margin: 0;
-  }
+
 
   .post {
     width: 90%;
@@ -558,6 +556,18 @@ a.image {
   text-align: center;
 height: 40vh;
   color: #fff;
+}
+
+@media (max-width:1300px){
+  .parallax__content {
+    height: 30vh;
+  }
+}
+
+@media (max-width:768px){
+  .parallax img {
+    width: 200%;
+  }
 }
 
 .content-centered{

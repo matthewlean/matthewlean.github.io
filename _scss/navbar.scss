@@ -134,3 +134,15 @@
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
+
+.show.navbar-collapse, .show.navbar-collapsing{
+  width: 100vw;
+  background-color: #fff;
+}
+.show .navbar-nav ul {
+height: unset;
+    width: 100%;
+}
+.show .navbar-nav ul li {
+      width: 100%;
+  }
