@@ -8,7 +8,7 @@ img: 20140328-motion-typrography-thumb.jpg
 author: matthew_lean
 description: Motion typography and animation work using After Effects.
 # Extras.
-color-1: b5b5b5
+color-1: 0f0f0f
 color-2: 140e77
 comments: true
 published: true

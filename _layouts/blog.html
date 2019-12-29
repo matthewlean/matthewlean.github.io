@@ -7,8 +7,7 @@
 
 		{% include header-main.html %}
 
-		<div class="splash"
-			style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative; background-color: #0f6aea;background-repeat: no-repeat;
+		<div class="splash" style="background-image: url({{site.baseurl}}/assets/site-post/{{page.img}}); background-size: cover;position: relative; background-color: #0f6aea;background-repeat: no-repeat;
 			background-position: 50% 50%;">
 
 			<div class="splash-video-wrapper">
@@ -33,38 +32,34 @@
 			</div>
 		</div>
 
-		<div class="container">
-			<div class="primary">
-				<div class="projects row">
-					{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %}
-					{% assign count = count | plus:1 %}
-					<div class="col-lg-4 col-md-6 col-xs-12">
-						<div class="project">
-							<a href="{{ post.url }}">
-								<div class="project-image"
-									style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});background-size: cover;">
-									<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
-										class="project-image-gradient"></div>
+		<div class="fluid-container">
+			<div class="row justify-content-md-center mr-0 ml-0">
+				{% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "post" %}
+				{% assign count = count | plus:1 %}
+				<div class="project col-md-3 pr-0 pl-0">
+					<a href="{{ post.url }}">
+						<div class="project-image"
+							style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
+							<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
+								class="project-image-gradient"></div>
 
-									<div class="project-name">
-										{{ post.title | escape }}</div>
-									<div class="badge mt-2">
-										<span
-											style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
-									</div>
+							<div class="project-name">
+								{{ post.title | escape }}
+								<div class="badge mt-2">
+									<span style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
 								</div>
-								<div class="project-description">
-									<p class="date">{{ post.date | date_to_long_string }}</p>
-									<p class="description">{{ post.description | escape }}</p>
-								</div>
-							</a>
+							</div>
+
 						</div>
-					</div>
-					{% if count == 15 %}{% break %} {% endif %} {% endif %} {% endfor %}
+						<div class="project-description">
+							<p class="date">{{ post.date | date_to_long_string }}</p>
+							<p class="description">{{ post.description | escape }}</p>
+						</div>
+					</a>
 				</div>
+				{% if count == 15 %}{% break %} {% endif %} {% endif %} {% endfor %}
 			</div>
 		</div>
-
 	</div>
 	{% include footer.html %}
 
