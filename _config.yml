@@ -8,7 +8,7 @@ logo: /assets/site-brand/matthew-lean.jpg
 
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-destination: ./_site
+# destination: ./_site
 sass:
   sass_dir: ./_scss
   style: compressed
