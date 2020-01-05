@@ -2,59 +2,58 @@
 
 // Photography // ----------------------------------
 
-#photography {
-  margin: 1em 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-#photography img {
-  width: 100%;
-  display: grid;
-  position: relative;
-  margin-bottom: 1em;
-  border-radius: 3px;
-  transition: box-shadow .2s ease-in-out;
+/* ---- .grid-item ---- */
+
+.gutter-sizer {
+  width: 1.333%;
 }
 
-#photography .img:hover {
-  cursor: pointer;
-  // box-shadow: 0px 5px 20px 5px rgba(46, 51, 51, 0.2);
-}
-
-#photography-section .project-name {
-  font-size: 2.5em;
-}
-
-.photography-block {
-  height: 400px;
-  background-color: $light-grey;
-  background-position: 50%;
-  transition: box-shadow 0.2s ease-in-out;
-
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 300px;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
-    height: 400px; /* 100% of viewport height */
-    margin: 0 auto; 
-    position: relative; 
-   
-}
-
-/*Medium Screen */
-@media (max-width: 1270px) {
-  #photography .img {
-    width: calc(50% - 0.5em);
+@media (min-width:1280px) {
+  .grid-sizer,
+  .grid-item {
+    width: 18%;
   }
+  #grid{
+    margin-left: 55px;
+  }
+}
+
+@media (max-width:1280px) {
+  .grid-sizer,
+  .grid-item {
+    width: 32%;
+  }
+}
+@media (max-width:768px) {
+  .grid-sizer,
+  .grid-item {
+    width: 49%;
+  }
+}
+
+.grid-item {
+  float: left;
+  margin-bottom: 1.333%;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+div#masongrid {
+  padding-top: 1.33%;
+  padding-left: 1.333%;
+}
+
+figcaption {
+  display: none;
 }
