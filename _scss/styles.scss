@@ -60,6 +60,19 @@ a:hover {
   max-width: 150px;
 }
 
+@media (max-width:425px){
+  .intro img{
+    margin:0 auto;
+  }
+  .intro h1, .intro h2, .intro p{
+    text-align: center;
+  }
+  .social-icons{
+    justify-content: center;
+    display: flex;
+  }
+}
+
 .social-icons {
   margin-top: 1em;
 }
@@ -100,6 +113,12 @@ a:hover {
 .project {
   max-width: 340px;
   margin: 15px;
+}
+
+@media (max-width:768px){
+  .slick-slide .project {
+    margin: 0px;
+  }
 }
 
 .slider {
@@ -217,6 +236,16 @@ a:hover {
   background-color: $blue;
   text-transform: uppercase;
   font-family: $font-primary;
+}
+
+@media (max-width:425px){
+.blog .row, .relatedPosts .row{
+  display: flex;
+    justify-content: center;
+}
+.relatedPosts .project-image, .blog .project-image {
+  height: 340px;
+}
 }
 
 // Post
@@ -587,7 +616,23 @@ height: 40vh;
   float: none;
   margin: 0 auto;
 }
-.customer-logos .slide img{
-  max-width: 150px;
+.customer-logos img{
+  max-width: 100px;
   margin: 0 auto;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+transition: ease all .4s;
+}
+
+.customer-logos img:hover{
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+@media (max-width:768px){
+  .customer-logos img{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    max-width: 70px;
+  }
 }
