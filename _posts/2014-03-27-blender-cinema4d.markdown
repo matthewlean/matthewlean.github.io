@@ -2,7 +2,7 @@
 layout: default-post
 title: "Blender / Cinema 4D"
 date:  2014-03-27
-category: jekyll post graphics
+category: jekyll post graphics featured
 category-type: graphics
 img: 20140327-blender-cinema4d-thumb.jpg
 author: matthew_lean
