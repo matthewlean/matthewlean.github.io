@@ -98,3 +98,15 @@
   left: 0;
   right: 0;
 }
+
+.header-content-container .project-name {
+  display: initial;
+  font-size: 2em;
+}
+
+@media(max-width:425px){
+  .header-content-container .project-name {
+    display: initial;
+    font-size: 1.5em;
+  }
+}
