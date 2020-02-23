@@ -50,7 +50,7 @@
         {% for image in site.static_files %}
         {% if image.path contains 'photography' %}
         <div href="#" data-featherlight="{{ site.baseurl }}{{ image.path }}" class="grid-item">
-          <img src="{{ site.baseurl }}{{ image.path }}">
+          <img alt="Matthew Lean - Photography" src="{{ site.baseurl }}{{ image.path }}">
         </div>
         {% endif %}
         {% endfor %}
