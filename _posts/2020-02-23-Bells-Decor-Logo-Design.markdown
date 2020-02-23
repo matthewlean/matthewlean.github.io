@@ -1,12 +1,12 @@
 ---
 layout: default-post
 title: "Bell's Decor - Website, Brand Identity and Photography"
-date:  2020-02-22
+date:  2020-02-23
 category: jekyll post graphics featured
 category-type: graphics
 img: bells-decor-banner.jpg
 author: matthew_lean
-description: For this rebranding project I was given the opportunity to recreate the whole brand visual presence. Starting with the logo, colours and typeface to several photoshoots and graphic visuals.
+description: For this rebranding project I was given the opportunity to recreate the entire brand's visual presence. Starting with the logo, colours and typeface to several photoshoots and graphic visuals.
 # Extras.
 color-1: 8b9eeb
 color-2: a4b6ff
