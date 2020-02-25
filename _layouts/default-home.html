@@ -80,6 +80,9 @@
 
 								<div class="project-name">
 									{{ post.title | escape }}
+									<div class="subtitle mt-2">
+										{{ post.subtitle | escape}}
+									</div>
 									<div class="badge mt-2">
 										<span
 											style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
@@ -96,7 +99,7 @@
 		<script type="text/javascript">
 			const slider = tns({
 				container: '.slider',
-				gutter:20,
+				gutter: 20,
 				loop: true,
 				items: 1,
 				slideBy: 1,

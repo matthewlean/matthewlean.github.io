@@ -1,6 +1,7 @@
 ---
 layout: default-post
-title: "EU Dota2 Discord Community - UI Website Design"
+title: "EU Dota2 Discord Community"
+subtitle: "UI Website Design"
 date:  2017-07-11
 category: jekyll post graphics featured
 category-type: graphics

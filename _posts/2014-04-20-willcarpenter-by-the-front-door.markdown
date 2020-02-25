@@ -1,6 +1,7 @@
 ---
 layout: default-post
-title:  "By The Front Door - Lyric Video Motion Graphic Design"
+title:  "By The Front Door"
+subtitle: "Lyric Video Motion Graphic Design"
 date:  2017-04-20
 category: jekyll post video graphics featured
 category-type: graphics

@@ -1,6 +1,7 @@
 ---
 layout: default-post
-title: "eSports Team Raptors – Logo Design"
+title: "eSports Team Raptors"
+subtitle: "Logo Design"
 date:  2017-06-13
 category: jekyll post graphics featured
 category-type: graphics

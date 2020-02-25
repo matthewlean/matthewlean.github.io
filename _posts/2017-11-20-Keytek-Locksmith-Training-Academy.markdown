@@ -1,6 +1,7 @@
 ---
 layout: default-post
-title: "Keytek Locksmith Training Academy - Wordpress Site"
+title: "Keytek Locksmith Training Academy"
+subtitle: "Wordpress Site"
 date:  2017-11-20
 category: jekyll website post
 category-type: website

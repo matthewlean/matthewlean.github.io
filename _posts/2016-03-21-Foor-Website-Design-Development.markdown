@@ -1,6 +1,7 @@
 ---
 layout: default-post
-title: "Foor - Website Design & Development"
+title: "Foor"
+subtitle: "Website Design & Development"
 date:  2016-03-21
 category: jekyll post website
 category-type: website

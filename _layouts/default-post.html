@@ -33,6 +33,7 @@
         <div class="header-content-container">
           <div class="splash-headline">
             <h1 class="project-name">{{ page.title }}</h1>
+            <h2 class="project-subtitle">{{ page.subtitle }}</h2>
             <p class="description">{{ page.description | escape }}</p>
             <p class="date">{{ page.date | date_to_long_string }}</p>
             <div class="badge mt-2">
@@ -83,6 +84,9 @@
 
                 <div class="project-name">
                   {{ post.title | escape }}
+                  <div class="subtitle mt-2">
+										{{ post.subtitle | escape}}
+									</div>
                   <div class="badge mt-2">
                     <span style="background-color: #{{post.color-1}};">{{ post.category-type }}</span>
                   </div>

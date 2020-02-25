@@ -1,6 +1,7 @@
 ---
 layout: default-post
-title: "Bell's Decor - Website, Brand Identity and Photography"
+title: "Bell's Decor"
+subtitle: "Website, Brand Identity and Photography"
 date:  2020-02-23
 category: jekyll post graphics featured
 category-type: graphics

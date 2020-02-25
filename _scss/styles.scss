@@ -167,10 +167,21 @@ a:hover {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding: 0 35px;
+  padding: 0 20px;
   line-height: 1.15;
   font-family: $font-primary;
 }
+.project .subtitle {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.project-subtitle{
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-top: .25em;
+}
+
 
 .main-project-name {
   font-size: 2.5em;
