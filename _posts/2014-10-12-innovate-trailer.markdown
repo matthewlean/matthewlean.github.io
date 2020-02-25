@@ -16,7 +16,7 @@ published: true
 permalink: /innovate/
 ---
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/innovateHeader.png" class="img" alt="innovate trailer monopoly house"><img src="{{ site.url }}/assets/site-post/innovateHeader.png"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/innovateHeader.png" class="img"><img alt="Innovate Trailer Monopoly House" src="{{ site.url }}/assets/site-post/innovateHeader.png"></div>
 
 After talking with my group about the initial design of and going head with my design idea I then went onto making a slightly more fleshed out design, which showed my new ideas and changes to my initial design.
 I also went and created all the shapes used in the game for all the questions. My idea was to make at least 2 similar shapes and 2 which are incorrect. This made designing all the shapes quite easy when the questions where decided upon. This also helped as I took many pictures during our 3 visits to Salisbury Cathedral.
@@ -61,4 +61,4 @@ At the end of the editing I am happy with the end result however I wished I had 
 
 For the channel project we had to produce an accompanying website which would showcase the videos which we could produce. The channel would also have space to increase in size and be able to add new content. After coming up with the idea of ClipCut we wanted to keep with the simplistic design which would link with our company. So when designing the website we used simple textures and kept layout clean and easy to navigate. The logo is found on the website as well as sections to send questions and learn more about the film.
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/clipCutpage1.jpg" class="img" alt="clipcut website innovate trailer"><img src="{{ site.url }}/assets/site-post/clipCutpage1.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/clipCutpage1.jpg" class="img"><img alt="Clipcut Website Innovate Trailer" src="{{ site.url }}/assets/site-post/clipCutpage1.jpg"></div>

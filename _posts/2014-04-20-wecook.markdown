@@ -19,7 +19,7 @@ permalink: /weCook/
 
 <!-- <iframe src="https://player.vimeo.com/video/215204627" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/weCook-logo.png" class="img" style="margin:0 auto; width:50%;" alt="weCook logo"><img src="{{ site.url }}/assets/site-post/weCook-logo.png"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/weCook-logo.png" class="img" style="margin:0 auto; width:50%;"><img alt="weCook logo" src="{{ site.url }}/assets/site-post/weCook-logo.png"></div>
 
 weCook is a [cakePhp](https://cakephp.org/) project I worked on for my Graduate Project. I created a social recipe website which allowed users to add recipes and edit other users recipes in an attempt to create new and exciting alternatives to users recipes and promote creativity through social interaction.
 
@@ -29,13 +29,13 @@ weCook is a [cakePhp](https://cakephp.org/) project I worked on for my Graduate 
 
 
 weCook Style Guidelines
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-brand-styleguide.jpg" class="img" alt="weCook style brand guideline"><img src="{{ site.url }}/assets/site-post/wecook-brand-styleguide.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-brand-styleguide.jpg" class="img"><img alt="weCook Style Brand Guideline" src="{{ site.url }}/assets/site-post/wecook-brand-styleguide.jpg"></div>
 
 weCook Register Page
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-register-page.jpg" class="img" alt="weCook register page"><img src="{{ site.url }}/assets/site-post/wecook-register-page.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-register-page.jpg" class="img"><img alt="weCook Register Page" src="{{ site.url }}/assets/site-post/wecook-register-page.jpg"></div>
 
 weCook Profile Page
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-profile-page.jpg" class="img" alt="weCook profile page"><img src="{{ site.url }}/assets/site-post/wecook-profile-page.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/wecook-profile-page.jpg" class="img"><img alt="weCook Profile Page" src="{{ site.url }}/assets/site-post/wecook-profile-page.jpg"></div>
 
 *Edit
 

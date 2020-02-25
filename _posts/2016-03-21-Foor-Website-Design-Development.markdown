@@ -19,7 +19,7 @@ permalink: /foor-wetsuits/
 The EU Dota2 Discord Community was founded in the start of 2016. Discord is VoIP (VoiceOverIP) designed for gaming communities. The community website needed to give a clean and modern looking front and also to promote the new forum which was in the process of being created.
 I started with the sections of the websites, these would show features of the community.
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/discordSection.png" class="img" alt="EU Dota Discord Server"><img src="{{ site.url }}/assets/site-post/discordSection.png"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/discordSection.png" class="img"><img alt="EU Dota Discord Server" src="{{ site.url }}/assets/site-post/discordSection.png"></div>
 
 The website colour scheme was based on the Discord colour palette which made the look of the website to link to the Discord UI and show the relationship both the community and the software has. After creating sections on the amount of users, games and the forum the admins were happy with the design.
 
@@ -27,4 +27,4 @@ The website colour scheme was based on the Discord colour palette which made the
 
 The forum design was another project I completed. This included many features which would take some time to create so acted like more of a reference point for the forum. I designed profile areas , showing pinning features and starred posts to show what could become of the forum after it had grown.
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/forumdesign.jpg" class="img" alt="eSports team raptors text logo"><img src="{{ site.url }}/assets/site-post/forumdesign.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/forumdesign.jpg" class="img"><img alt="EU Dota Discord - Forum Design" src="{{ site.url }}/assets/site-post/forumdesign.jpg"></div>

@@ -22,21 +22,21 @@ I was tasked in creating a modern logo and redesigning their website. Alongside 
 
 For the logo I wanted it to be clean, modern and stylish, to keep with the new prestigious developments Bell's Decor have earned their enviable reputation for. 
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-1.jpg" class="img" alt="Bells Decor - Logo Construction"><img src="{{ site.url }}/assets/site-post/bells-decor-1.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-1.jpg" class="img"><img alt="Bells Decor - Black and White Logo" src="{{ site.url }}/assets/site-post/bells-decor-1.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-2.jpg" class="img" alt="Bells Decor - Logo Construction"><img src="{{ site.url }}/assets/site-post/bells-decor-2.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-2.jpg" class="img"><img alt="Bells Decor - Logo" src="{{ site.url }}/assets/site-post/bells-decor-2.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-brand.jpg" class="img" alt="Bells Decor - Brand"><img src="{{ site.url }}/assets/site-post/bells-brand.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-brand.jpg" class="img"><img alt="Bells Decor - Brand" src="{{ site.url }}/assets/site-post/bells-brand.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-logo-overlay.jpg" class="img" alt="Bells Decor - Logo Overlay"><img src="{{ site.url }}/assets/site-post/bells-decor-logo-overlay.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-logo-overlay.jpg" class="img"><img alt="Bells Decor - Logo Overlay" src="{{ site.url }}/assets/site-post/bells-decor-logo-overlay.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-vista.jpg" class="img" alt="Bells Decor - Vista"><img src="{{ site.url }}/assets/site-post/bells-decor-vista.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-vista.jpg" class="img" ><img alt="Bells Decor - Vista" src="{{ site.url }}/assets/site-post/bells-decor-vista.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-oakdale-dining.jpg" class="img" alt="Bells Decor - Vista"><img src="{{ site.url }}/assets/site-post/bells-decor-oakdale-dining.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-oakdale-dining.jpg" class="img" ><img alt="Bells Decor - Oakdale Dining" src="{{ site.url }}/assets/site-post/bells-decor-oakdale-dining.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-oakdale-living.jpg" class="img" alt="Bells Decor - Vista"><img src="{{ site.url }}/assets/site-post/bells-decor-oakdale-living.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-oakdale-living.jpg" class="img" ><img alt="Bells Decor - Oakdale Living" src="{{ site.url }}/assets/site-post/bells-decor-oakdale-living.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-oakdale-living-room.jpg" class="img" alt="Bells Decor - Vista"><img src="{{ site.url }}/assets/site-post/bells-decor-oakdale-living-room.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-oakdale-living-room.jpg" class="img"><img alt="Bells Decor - Oakdale Livingroom" src="{{ site.url }}/assets/site-post/bells-decor-oakdale-living-room.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-website-design.jpg" class="img" alt="Bells Decor - Website Design"><img src="{{ site.url }}/assets/site-post/bells-decor-website-design.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-website-design.jpg" class="img"><img alt="Bells Decor - Website Design" src="{{ site.url }}/assets/site-post/bells-decor-website-design.jpg"></div>
 
