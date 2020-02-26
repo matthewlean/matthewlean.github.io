@@ -36,6 +36,9 @@
                 <span>Recent Project</span>
               </div>
               {{ post.title | escape }}
+              <div class="subtitle mt-2">
+                {{ post.subtitle | escape}}
+              </div>
             </div>
 
             {% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
