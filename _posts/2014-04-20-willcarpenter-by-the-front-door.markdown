@@ -10,7 +10,7 @@ author: matthew_lean
 description: By The Front Door is one of the songs Will released on his EP – Radio Blues. He asked me if I could create a handwritten lyric video to use for the song.
 # Extras.
 color-1: 1a0056
-color-2: f2f2f2
+color-2: 131c23
 comments: true
 published: true
 permalink: /by-the-front-door/

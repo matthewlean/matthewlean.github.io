@@ -2,7 +2,7 @@
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }}</title>
+  <title>{%if page.seotitle %}{{ page.seotitle }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#027cf0" />
@@ -19,7 +19,7 @@
   <meta property="og:image" content="{{ site.url }}/assets/site-docs/{{ page.img }}" />
   {% endif %}
 
-  <meta property="og:site_name" content="Matthew Lean - Digital Content Creator">
+  <meta property="og:site_name" content="Matthew Lean - Digital Designer">
   <meta property="article:published_time" content="{{ page.date }}" />
   <meta property="og:description"
     content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">

@@ -48,10 +48,16 @@
       {{ content }}
     </div>
 
+    <style>
+      .post p:first-of-type:first-letter {
+          color:#{%if page.color-2 %}{{ page.color-2 }}{% else %}inherit{% endif %}!important;
+      }
+  </style>
+
     <!-- related posts -->
     <div class="jumbotron relatedPosts jumbotron-fluid bg-light intro mb-0">
       <div class="container">
-        <h4 class="text-center mb-3 text-capitalize" style="color: #c1bebe;">Related {{ page.category-type }} Posts
+        <h4 class="text-center mb-3 text-capitalize" style="color: #c1bebe;">Related {{ page.category-type }} Projects
         </h4>
         <div class="row justify-content-md-center mr-0 ml-0">
 
