@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "Keytek Locksmith Training Academy"
+seotitle: "Keytek Training Academy | Matthew Lean"
 subtitle: "Wordpress Site"
 date:  2017-11-20
 category: jekyll website post

@@ -11,6 +11,8 @@ color-1: ffffff00
 color-2: 0f6aea
 comments: false
 published: true
+redirect_from:
+  - /blog/
 ---
 
 Test Content

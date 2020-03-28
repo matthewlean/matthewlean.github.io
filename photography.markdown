@@ -1,6 +1,7 @@
 ---
 layout: photography
 title: Photography
+seotitle: "Photography | Matthew Lean"
 category: subpage
 permalink: /photography/
 img: ../photography/old-harry-rocks.jpg

@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "TriUk"
+seotitle: "TriUk 2016 Catalogue | Matthew Lean"
 subtitle: "2016 Catalogue Print Design"
 date:  2017-03-06
 category: jekyll post graphics print featured

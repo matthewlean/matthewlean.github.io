@@ -1,9 +1,10 @@
 ---
 layout: default-post
 title:  "weCook"
+seotitle: "weCook | Matthew Lean"
 subtitle: "Graduate Project"
 date:  2017-03-11
-category: jekyll post main website featured
+category: jekyll post website featured
 category-type: website
 img: wecook-trailer.jpg
 video: wecook.mp4

@@ -52,6 +52,10 @@
       .post p:first-of-type:first-letter {
           color:#{%if page.color-2 %}{{ page.color-2 }}{% else %}inherit{% endif %}!important;
       }
+      .post a{
+        color:#{{ page.color-1 }};
+        border-bottom:2px solid #{{ page.color-1 }}!important;
+      }
   </style>
 
     <!-- related posts -->

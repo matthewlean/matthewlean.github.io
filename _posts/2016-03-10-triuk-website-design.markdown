@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "TriUk"
+seotitle: "TriUk | Matthew Lean"
 subtitle: "Website Splashpage Redesign"
 date:  2017-05-10
 category: jekyll post website featured

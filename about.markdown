@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: About
 permalink: /about/
@@ -12,4 +12,4 @@ comments: false
 published: true
 ---
 
-Feel free to check out my portfolio for all my recent projects and graphics work. Extra info and writeup can be found on my blog and please contact me if you have any questions.
+Feel free to check out my portfolio for all my recent projects and graphics work. Extra info and writeup can be found on my blog and please contact me if you have any questions. -->

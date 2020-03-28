@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "Motion Typrography"
+seotitle: "Motion Typrography | Matthew Lean"
 date:  2014-03-28
 category: jekyll post video
 category-type: video

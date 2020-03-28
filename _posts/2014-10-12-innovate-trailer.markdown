@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "Innovate"
+seotitle: "Innovate | Matthew Lean"
 subtitle: "Uni Video Project"
 date:  2014-10-12
 category: jekyll post video

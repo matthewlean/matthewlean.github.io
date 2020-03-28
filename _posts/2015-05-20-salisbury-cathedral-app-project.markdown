@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "Salisbury Cathedral"
+seotitle: "Salisbury Cathedral | Matthew Lean"
 subtitle: "Uni App Project"
 date:  2015-05-20
 category: jekyll post graphics app 

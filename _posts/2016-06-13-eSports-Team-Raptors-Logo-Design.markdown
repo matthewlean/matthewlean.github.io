@@ -1,6 +1,7 @@
 ---
 layout: default-post
 title: "eSports Team Raptors"
+seotitle: "eSports Team Raptors | Matthew Lean"
 subtitle: "Logo Design"
 date:  2017-06-13
 category: jekyll post graphics featured
