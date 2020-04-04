@@ -1,36 +1,30 @@
 {% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %}
 {% assign count = count | plus:1 %}
 
-<div class="splash" id="hero-header"
+<div class="splash-60" id="hero-header"
   style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}}); background-size: cover;position: relative;">
 
   <a href="{{ post.url }}">
-    {% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
-
 
     <div class="splash-video-wrapper">
-      {% if post.color-1 %}
+
       <div style="background-image: linear-gradient(to bottom right, #{{post.color-1}}, #{{post.color-2}});"
         class="project-image-gradient"></div>
-      {% else %}
-      <div style="background-image: linear-gradient(270deg,rgba(0, 0, 0, 0.4),rgba(59, 59, 59, 0.25));" class="project-image-gradient"></div>
-      {% endif %}
 
-      {% if post.video %}
+
+
       <video class="splash-video" playsinline="" autoplay="" muted="" loop=""
-        poster="{{site.baseurl}}/assets/site-post/{{post.img}}" id="bgvid">
+        poster="{{site.baseurl}}/assets/site-post/{{poster.img}}" id="bgvid">
         <source class="splash-video" src="{{site.baseurl}}/assets/site-video/{{post.video}}" type="video/mp4">
       </video>
-      {% endif %}
-    </div>
 
+    </div>
 
     <div class="site-container splash-overlay">
       <div class="header-content-container">
         <div class="splash-headline">
           <div id="main-project">
-            {% assign count = 0 %} {% for post in site.posts %} {% if post.category contains "main" %}
-            {% assign count = count | plus:1 %}
+
             <div class="main-project-name">
               <div class="badge">
                 <span style="background-color: #{{post.color-1}};">Recent Project</span>
@@ -41,7 +35,6 @@
               </div>
             </div>
 
-            {% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}
           </div>
         </div>
       </div>
@@ -49,3 +42,4 @@
 
   </a>
 </div>
+{% if count == 1 %}{% break %} {% endif %} {% endif %} {% endfor %}

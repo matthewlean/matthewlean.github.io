@@ -6,7 +6,8 @@ subtitle: "Website & Logo Design"
 date:  2020-03-28
 category: jekyll post graphics featured main
 category-type: graphics
-img: ashfield-banner.jpg
+poster: ashfield-banner.jpg
+video: ashfield-banner.mp4
 author: matthew_lean
 description: For this project I was tasked in creating an identity for the Ashfield Partnership. Starting with the logo and then moving onto the design of the website.
 
