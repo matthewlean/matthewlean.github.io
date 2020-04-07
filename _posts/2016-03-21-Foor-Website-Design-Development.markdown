@@ -24,7 +24,7 @@ I started with the sections of the websites, these would show features of the co
 
 The website colour scheme was based on the Discord colour palette which made the look of the website to link to the Discord UI and show the relationship both the community and the software has. After creating sections on the amount of users, games and the forum the admins were happy with the design.
 
-#Forum Design
+## Forum Design
 
 The forum design was another project I completed. This included many features which would take some time to create so acted like more of a reference point for the forum. I designed profile areas , showing pinning features and starred posts to show what could become of the forum after it had grown.
 

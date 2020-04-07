@@ -24,7 +24,7 @@ I started with the sections of the websites, these would show features of the co
 
 The website colour scheme was based on the Discord colour palette which made the look of the website to link to the Discord UI and show the relationship both the community and the software has. After creating sections on the amount of users, games and the forum the admins were happy with the design.
 
-Website link - <a href="http://dotadiscord.xyz/">dotadiscord.xyz</a>
+Website link - <a href="http://dotadiscord.xyz/" target="_blank">dotadiscord.xyz</a>
 
 
 ## Forum Design

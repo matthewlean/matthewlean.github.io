@@ -27,4 +27,4 @@ Will was pretty kind and said my pretty bad art style was fine and fitted the fe
 
 <div style='position:relative; padding-bottom:74%'><iframe src='https://gfycat.com/ifr/CourageousDaringHoki' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
-[Youtube Video Link](https://www.youtube.com/watch?v=F4DffiVg2dw)
+<a href="https://www.youtube.com/watch?v=F4DffiVg2dw" target="_blank">Watch the video here</a>
