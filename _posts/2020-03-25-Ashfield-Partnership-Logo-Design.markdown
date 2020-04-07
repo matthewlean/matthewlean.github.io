@@ -10,7 +10,6 @@ img: ashfield-banner.jpg
 video: ashfield-banner.mp4
 author: matthew_lean
 description: For this project I was tasked in creating an identity for the Ashfield Partnership. Starting with the logo and then moving onto the design of the website.
-
 # Extras.
 color-1: 6b972f
 color-2: a9c26c
