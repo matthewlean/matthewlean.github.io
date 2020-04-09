@@ -5,7 +5,7 @@ category: subpage
 permalink: /projects/
 img: blue-shapes.jpg
 author: matthew_lean
-description: weCook is a social recipe website, designed to make it easy to follow and edit recipes. Recipes added to the site are open to editing by all users, allowing for multiple versions of the recipe to be made.
+description: Check out my selection of recent projects with work in graphics design, website design and video.
 # Extras.
 color-1: ffffff00
 color-2: 0f6aea
