@@ -1,6 +1,7 @@
 ---
 layout: projects
 title: Projects
+seotitle: "Projects | Matthew Lean"
 category: subpage
 permalink: /projects/
 img: blue-shapes.jpg
