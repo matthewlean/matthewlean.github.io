@@ -2,7 +2,7 @@
 layout: default-post
 title: "Bell's Decor"
 seotitle: "Bell's Decor | Matthew Lean"
-subtitle: "Website, Brand Identity and Photography"
+subtitle:  "Brand Identity and Photography"
 date:  2020-02-23
 category: jekyll post graphics featured
 category-type: graphics
@@ -22,6 +22,8 @@ Bell's Decor est 2016 is a Poole based professional decorating company. They pro
 I was tasked in creating a modern logo and redesigning their website. Alongside this I was also appointed to photograph multiple locations currently under construction and completed builds, including Vista Poole and Oakdale Care Home. 
 
 For the logo I wanted it to be clean, modern and stylish, to keep with the new prestigious developments Bell's Decor have earned their enviable reputation for. 
+
+Check out the website for the full design and updated photography.<a href="http://www.bellsdecor.co.uk/" target="_blank"> Bell's Decor Website</a>
 
 <div href="#" data-featherlight="{{ site.url }}/assets/site-post/bells-decor-1.jpg" class="img"><img alt="Bells Decor - Black and White Logo" src="{{ site.url }}/assets/site-post/bells-decor-1.jpg"></div>
 
