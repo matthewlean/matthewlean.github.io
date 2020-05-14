@@ -30,15 +30,15 @@ One of the important aspects of the design was it's ability to work alongside th
 
 The logos three leafs represent the 3 builders who make up the Partnership. The client also wanted to create a shape which symbolized the unity between the three.The chain like pattern was experimented with, rings and other forms which symbolically formed a bond.
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/estate-and-partnership-logos.png" class="img"><img alt="The Ashfield Partnership - Black and White Logo" src="{{ site.url }}/assets/site-post/estate-and-partnership-logos.png"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/estate-and-partnership-logos.png" class="img"><img alt="Ashfield Partnership and Ashfield Estate - Black and White Logo" src="{{ site.url }}/assets/site-post/estate-and-partnership-logos.png"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-parternship-logo.jpg" class="img"><img alt="The Ashfield Partnership - Black and White Logo" src="{{ site.url }}/assets/site-post/ashfield-parternship-logo.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-parternship-logo.jpg" class="img"><img alt="Ashfield Partnership Logo" src="{{ site.url }}/assets/site-post/ashfield-parternship-logo.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-partnership-branding.jpg" class="img"><img alt="The Ashfield Partnership - Black and White Logo" src="{{ site.url }}/assets/site-post/ashfield-partnership-branding.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-partnership-branding.jpg" class="img"><img alt="Ashfield Partnership Branding" src="{{ site.url }}/assets/site-post/ashfield-partnership-branding.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-partnership-logo-image.jpg" class="img"><img alt="The Ashfield Partnership Logo Image" src="{{ site.url }}/assets/site-post/ashfield-partnership-logo-image.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-partnership-logo-image.jpg" class="img"><img alt="Ashfield Partnership Country View" src="{{ site.url }}/assets/site-post/ashfield-partnership-logo-image.jpg"></div>
 
-<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-partnership-stationery-concepts.jpg" class="img"><img alt="The Ashfield Partnership - Black and White Logo" src="{{ site.url }}/assets/site-post/ashfield-partnership-stationery-concepts.jpg"></div>
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/ashfield-partnership-stationery-concepts.jpg" class="img"><img alt="Ashfield Partnership Branding Print Work" src="{{ site.url }}/assets/site-post/ashfield-partnership-stationery-concepts.jpg"></div>
 
 ## Website Design
 
