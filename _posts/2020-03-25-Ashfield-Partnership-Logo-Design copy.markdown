@@ -1,11 +1,11 @@
 ---
 layout: default-post
 title: "The Ashfield Partnership"
-seotitle: "The Ashfield Partnership | Matthew Lean"
+seotitle: "The Ashfield Partnership - Web Design | Matthew Lean"
 subtitle: "Website & Logo Design"
 date:  2020-03-28
-category: jekyll post graphics featured main
-category-type: graphics
+category: jekyll post graphics featured 
+category-type: web design
 img: ashfield-banner.jpg
 video: ashfield-banner.mp4
 author: matthew_lean

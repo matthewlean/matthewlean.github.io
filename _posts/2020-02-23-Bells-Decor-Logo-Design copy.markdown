@@ -1,11 +1,11 @@
 ---
 layout: default-post
 title: "Bell's Decor"
-seotitle: "Bell's Decor | Matthew Lean"
+seotitle: "Bell's Decor - Web Design | Matthew Lean"
 subtitle:  "Brand Identity and Photography"
 date:  2020-02-23
 category: jekyll post graphics featured
-category-type: graphics
+category-type: web design
 img: bells-decor-banner.jpg
 author: matthew_lean
 description: For this rebranding project I was given the opportunity to recreate the entire brand's visual presence. Starting with the logo, colours and typeface to several photoshoots and graphic visuals.

@@ -1,11 +1,11 @@
 ---
 layout: default-post
 title: "TriUk"
-seotitle: "TriUk | Matthew Lean"
+seotitle: "TriUk - Web Design | Matthew Lean"
 subtitle: "Website Splashpage Redesign"
 date:  2017-05-10
 category: jekyll post website featured
-category-type: website
+category-type: web design
 img: 20170510-triuk-website-design-thumb.jpg
 author: matthew_lean
 description: TriUk.com is an eCommerce website which sells bikes and triathlon gear. The main page highlights the newest deals and is the most important page on the site.
