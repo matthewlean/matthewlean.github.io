@@ -8,7 +8,7 @@ category: jekyll post graphics main
 category-type: web design
 img: morrish-homes-banner.jpg
 author: matthew_lean
-description: I primarily worked solely on the design for the front end website working closely with the marketing team to incorporate their new branding and led the specification writing for the back end integrated system.
+description: I primarily worked solely on the design for the front end website, working closely with the marketing team to incorporate their new branding. I also led the specification writing for the back end integrated system.
 # Extras.
 color-1: 274255
 color-2: 274255
