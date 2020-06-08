@@ -21,7 +21,7 @@ Morrish Homes are a property development company who specialises in building new
 
 Whilst designing the site I also worked closely with the software team and managed the specification writing and documentation for the developers. This would involve regular meetings with the client to update current spec and organise initial build features and improvements to incorporate into the system at a later date. 
 
-Thoughout the design the site I also kept regular contact with the frontend developers on the project before the build stage, looking for the best solutions from suggestions the client had on features and UI. Using this communication chain we were able to build a visually impressive site without leaving the frontend devs in a position were they were asked to build something that would be particulary challenging and time consuming. 
+Thoughout the design of the site I also kept regular contact with the frontend developers on the project before the build stage, looking for the best solutions from suggestions the client had on features and UI. Using this communication chain we were able to build a visually impressive site without leaving the frontend devs in a position were they were asked to build something that would be particulary challenging and time consuming. 
 
 The final result of the website brings the updated modern branding to life in a site that improves user experience through it's transformed custom build backend system but also in it's modern visuals.   
 
