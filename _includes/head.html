@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{%if page.seotitle %}{{ page.seotitle }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ page.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#027cf0" />
 
@@ -11,7 +11,8 @@
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{%if page.seotitle %}{{ page.seotitle }}{%else page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="og:description" content="{{ page.description }}">
+  <meta property="og:description"
+    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
   {% if page.category contains "subpage" %}
   <meta property="og:image" content="{{ site.url }}/assets/site-brand/og-image.jpg" />
@@ -21,8 +22,7 @@
 
   <meta property="og:site_name" content="Matthew Lean - Digital Designer">
   <meta property="article:published_time" content="{{ page.date }}" />
-  <meta property="og:description"
-    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/06913a25e7.js" crossorigin="anonymous"></script>
