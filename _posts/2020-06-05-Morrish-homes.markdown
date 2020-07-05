@@ -4,7 +4,7 @@ title: "Morrish Homes"
 seotitle: "Morrish Homes - Web Design | Matthew Lean"
 subtitle:  "Website Design"
 date:  2020-06-06
-category: jekyll post graphics main
+category: jekyll post graphics featured
 category-type: web design
 img: morrish-homes-banner.jpg
 author: matthew_lean

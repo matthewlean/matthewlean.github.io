@@ -156,7 +156,7 @@ a:hover {
 
 .header-content-container .project-name {
   display: initial;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 .project-name {
@@ -177,7 +177,7 @@ a:hover {
 }
 .project-subtitle{
   color: #fff;
-  font-size: 1.5em;
+  font-size: .5em;
   font-weight: 300;
   margin-top: .25em;
 }
@@ -188,7 +188,7 @@ a:hover {
 
 
 .main-project-name {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 600;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -267,6 +267,7 @@ a:hover {
 .post.container{
   margin-top: 50px;
   margin-bottom: 50px;
+  max-width:90vw;
 }
 .post p, .post h1, .post h2, .post h3, .post h4, .post h5{
   width: 100%;

@@ -1,0 +1,39 @@
+---
+layout: default-post
+title: "Treat Me"
+seotitle: "Treat Me - Website | Matthew Lean"
+subtitle:  "Website, SEO & Marketing"
+date:  2020-07-05
+category: jekyll post graphics main
+category-type: web design
+img: treat-me-banner.jpg
+author: matthew_lean
+description: Treat Me wanted to launch a website to expand their online presence and reach new customers through Social Media Marketing. I worked with them to build a website and startup their business, advising with content creation and SEO. 
+# Extras.
+color-1: 714e2c
+color-2: eea868
+comments: true
+published: true
+permalink: /treat-me/
+---
+
+Treat Me is a new event wall and confectionary company based in Southampton. They provide delicious doughnut and prosecco walls for hire at private parties, weddings and corporate events in the UK.      
+
+The website showcases the beautiful creations from Ryan, whether it's 60 yummy handmade doughnuts or the 6.5ft tall wall of prosecco they can make any event extra special. I wanted to showcase the lovely images from their Instagram so created an elegant layout, which spaced out the images and content with a minimal modern touch.
+
+The site was built with Jekyll, due to its straightforward management and lightweight implementation. We also leveraged Cloudflare's security and performance to protect against DDos and also ensure browser caching for fast page speed. 
+
+Check out the website here: <a target="_blank" href="https://www.treatme.uk/">treatme.uk</a> 
+
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/treat-me-social.jpg" class="img"><img alt="Treat Me Social Media Instagram" src="{{ site.url }}/assets/site-post/treat-me-social.jpg"></div>
+
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/treat-me-mobile-doughnut-screens.png" class="img"><img alt="Treat Me Social Media Marketing" src="{{ site.url }}/assets/site-post/treat-me-mobile-doughnut-screens.png"></div>
+
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/treat-me-mobile-prosecco-screens.png" class="img"><img alt="Treat Me Mobile Website Design Prosecco Page" src="{{ site.url }}/assets/site-post/treat-me-mobile-prosecco-screens.png"></div>
+
+<div href="#" data-featherlight="{{ site.url }}/assets/site-post/treat-me-homepage-design.jpg" class="img"><img alt="Treat Me Homepage Website Design" src="{{ site.url }}/assets/site-post/treat-me-homepage-design.jpg"></div>
+
+
+
+
+
