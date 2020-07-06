@@ -21,7 +21,7 @@ Treat Me is a new event wall and confectionary company based in Southampton. The
 
 The website showcases the beautiful creations from Ryan, whether it's 60 yummy handmade doughnuts or the 6.5ft tall wall of prosecco they can make any event extra special. I wanted to showcase the lovely images from their Instagram so created an elegant layout, which spaced out the images and content with a minimal modern touch.
 
-The site was built with Jekyll, due to its straightforward management and lightweight implementation. We also leveraged Cloudflare's security and performance to protect against DDos and also ensure browser caching for fast page speed. 
+The site was built with Jekyll, due to its straightforward management and lightweight implementation. I also leveraged Cloudflare's security and performance to protect against DDos and also ensure browser caching for fast page speed. 
 
 Check out the website here: <a target="_blank" href="https://www.treatme.uk/">treatme.uk</a> 
 
