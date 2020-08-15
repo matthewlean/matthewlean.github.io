@@ -4,8 +4,8 @@ title: "Treat Me"
 seotitle: "Treat Me - Website | Matthew Lean"
 subtitle:  "Website, SEO & Marketing"
 date:  2020-07-05
-category: jekyll post graphics main
-category-type: web design
+category: jekyll post website featured
+category-type: website
 img: treat-me-banner.jpg
 author: matthew_lean
 description: Treat Me wanted to launch a website to expand their online presence and reach new customers through Social Media Marketing. I worked with them to build a website and startup their business, advising with content creation and SEO. 
