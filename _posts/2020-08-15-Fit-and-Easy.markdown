@@ -7,7 +7,6 @@ date:  2020-08-15
 category: jekyll post website main
 category-type: website
 img: fit-and-easy-banner.jpg
-video: fit-and-easy-banner.mp4
 author: matthew_lean
 description: Fit and Easy are a Power Plate Studio based in Southampton. I built a them a responsive, mobile first website and optimized their metadata.   
 # Extras.
