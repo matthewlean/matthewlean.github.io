@@ -3,14 +3,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>{%if page.seotitle %}{{ page.seotitle }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description"
+    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width">
   <meta name="theme-color" content="#027cf0" />
 
   <!-- og -->
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{%if page.seotitle %}{{ page.seotitle }}{%else page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:title"
+    content="{%if page.seotitle %}{{ page.seotitle }}{%else page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description"
     content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
@@ -67,6 +69,20 @@
   <!-- Featherlight -->
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css"
     rel="stylesheet" />
+
+  <!-- Animate.css -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" type="text/css"
+    rel="stylesheet">
+
+  <!-- wowjs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+  <script>
+    new WOW().init();
+
+    $('.reset').click(function () {
+      new WOW().init();
+    })
+  </script>
 
   <!-- Tooltip -->
   <script>

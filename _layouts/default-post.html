@@ -31,7 +31,7 @@
 
       <div class="site-container splash-overlay">
         <div class="header-content-container">
-          <div class="splash-headline">
+          <div class="splash-headline wow animate fadeInUp" data-wow-delay=".3s">
             <h1 class="project-name">{{ page.title }}
               <span class="project-subtitle" style="display: block;">{{ page.subtitle }}</span>
             </h1>
@@ -67,9 +67,9 @@
     <!-- related posts -->
     <div class="jumbotron relatedPosts jumbotron-fluid bg-light intro mb-0">
       <div class="container">
-        <h4 class="text-center mb-3 text-capitalize" style="color: #c1bebe;">Related {{ page.category-type }} Projects
+        <h4 class="text-center mb-3 text-capitalize wow animate fadeInUp"  data-wow-delay=".3s" style="color: #c1bebe;">Related {{ page.category-type }} Projects
         </h4>
-        <div class="row justify-content-md-center mr-0 ml-0">
+        <div class="row justify-content-md-center mr-0 ml-0 wow animate fadeInUp" data-wow-delay=".5s">
 
           {% assign maxRelated = 2 %}
           {% assign minCommonTags =  1 %}

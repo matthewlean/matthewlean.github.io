@@ -25,7 +25,7 @@
 
 			<div class="site-container splash-overlay">
 				<div class="header-content-container">
-					<div class="splash-headline">
+					<div class="splash-headline wow animate fadeInUp" data-wow-delay=".3s">
 						<h1 class="project-name">{{ page.title }}</h1>
 						<p class="project-desc mt-2 text-light">{{ page.description }}</p>
 					</div>
@@ -39,7 +39,7 @@
 				{% assign count = count | plus:1 %}
 				<div class="project col-lg-3 col-md-6 col-xs-12 pr-0 pl-0">
 					<a href="{{ post.url }}">
-						<div class="project-image"
+						<div class="project-image wow animate fadeInUp" data-wow-delay=".3s"
 							style="background-image: url({{site.baseurl}}/assets/site-post/{{post.img}});">
 							<div style="background-image: linear-gradient(to bottom right, #{{ post.color-1 | escape }}, #{{ post.color-2 | escape }});"
 								class="project-image-gradient"></div>
