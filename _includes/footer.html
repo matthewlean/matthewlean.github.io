@@ -5,21 +5,53 @@
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript"
 	charset="utf-8"></script>
 
+<!-- wowjs -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+<script>
+	new WOW().init();
+
+	$('.reset').click(function () {
+		new WOW().init();
+	})
+</script>
+
+<!-- Tooltip -->
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip();
+	});
+</script>
+
+<!-- SrollMagic and Greensock -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
 <footer class="container-fluid footer pt-5 pb-5 mt-0">
 	<div class="container">
 		<div class="row justify-content-md-center">
 			<div class="col-md-8 text-center">
 				<a href="/">
-					<svg class="navlogo footerlogo mb-2 wow animate fadeInUp" data-wow-delay=".3s" alt="Matthew Lean M Logo" xmlns="http://www.w3.org/2000/svg"
-						baseProfile="basic" viewBox="0 0 500 500">
+					<svg class="navlogo footerlogo mb-2 wow animate fadeInUp" data-wow-delay=".3s"
+						alt="Matthew Lean M Logo" xmlns="http://www.w3.org/2000/svg" baseProfile="basic"
+						viewBox="0 0 500 500">
 						<defs />
 						<path fill="#036aed"
 							d="M251 321l103-104 3-3v254l131-24V55L357 31 250 138 142 31 11 55v389l131 24V213l109 108 92-92 14-15" />
 					</svg>
 				</a>
 				<p class="wow animate fadeInUp" data-wow-delay=".5s">
-					I'm a Digital Designer, I mainly design websites, but also work with branding and logos. I enjoy <a href="/photography">photography</a> & cooking and post mainly food on Instagram. Check out my <a
-						href="/projects/">projects</a> for my latest work and <a href="mailto:mttlean@gmail.com">email me</a> if you'd like to work together.
+					I'm a Digital Designer, I mainly design websites, but also work with branding and logos. I enjoy <a
+						href="/photography">photography</a> & cooking and post mainly food on Instagram. Check out my <a
+						href="/projects/">projects</a> for my latest work and <a href="mailto:mttlean@gmail.com">email
+						me</a> if you'd like to work together.
 				</p>
 				<div class="createdAnimation wow animate fadeInUp" data-wow-delay=".7s">
 					<p class="mt-2 mr-2">
